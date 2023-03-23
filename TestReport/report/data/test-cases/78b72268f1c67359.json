@@ -1,0 +1,92 @@
+{
+  "uid" : "78b72268f1c67359",
+  "name" : "test_leave_create[circle5]",
+  "fullName" : "TestCase.intention_test.TestKaoQin#test_leave_create",
+  "historyId" : "176167bea9bb164ea81f438b5d2eadf1",
+  "time" : {
+    "start" : 1679538665626,
+    "stop" : 1679538666857,
+    "duration" : 1231
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "357db6c6018da563",
+      "name" : "返回内容",
+      "source" : "357db6c6018da563.json",
+      "type" : "application/json",
+      "size" : 1537
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "考勤管理"
+  }, {
+    "name" : "story",
+    "value" : "考勤管理>请假>请假"
+  }, {
+    "name" : "epic",
+    "value" : "项目名称：泛微小e意图识别"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "intention_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKaoQin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BAUEVGC"
+  }, {
+    "name" : "thread",
+    "value" : "20684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.intention_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "circle",
+    "value" : "{'text': '明天请假一天。'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7927cc37c65339ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614330320535,
+        "stop" : 1614330321913,
+        "duration" : 1378
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "78b72268f1c67359.json",
+  "parameterValues" : [ "{'text': '明天请假一天。'}" ]
+}

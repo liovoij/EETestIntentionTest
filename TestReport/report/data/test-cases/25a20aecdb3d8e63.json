@@ -1,0 +1,92 @@
+{
+  "uid" : "25a20aecdb3d8e63",
+  "name" : "test_attendance_leave_recall[circle0]",
+  "fullName" : "TestCase.intention_test.TestKaoQin#test_attendance_leave_recall",
+  "historyId" : "45f46bdf95cfa3a2fbb87efca449d517",
+  "time" : {
+    "start" : 1679538666861,
+    "stop" : 1679538668757,
+    "duration" : 1896
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3c71f048540b0ce9",
+      "name" : "返回内容",
+      "source" : "3c71f048540b0ce9.json",
+      "type" : "application/json",
+      "size" : 784
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "考勤管理>请假>撤回请假"
+  }, {
+    "name" : "feature",
+    "value" : "考勤管理"
+  }, {
+    "name" : "epic",
+    "value" : "项目名称：泛微小e意图识别"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "intention_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKaoQin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BAUEVGC"
+  }, {
+    "name" : "thread",
+    "value" : "20684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.intention_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "circle",
+    "value" : "{'text': '帮我撤回请假流程'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6fefcf7de2506552",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614330321917,
+        "stop" : 1614330323138,
+        "duration" : 1221
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "25a20aecdb3d8e63.json",
+  "parameterValues" : [ "{'text': '帮我撤回请假流程'}" ]
+}

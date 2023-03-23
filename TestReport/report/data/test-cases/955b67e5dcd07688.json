@@ -1,0 +1,248 @@
+{
+  "uid" : "955b67e5dcd07688",
+  "name" : "test_attendance_sign_in[circle2]",
+  "fullName" : "TestCase.intention_test.TestIntention#test_attendance_sign_in",
+  "historyId" : "653ca148e6be68ad3d160b5acc1eb2fe",
+  "time" : {
+    "start" : 1614235718724,
+    "stop" : 1614235719906,
+    "duration" : 1182
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1614235716789,
+      "stop" : 1614235716789,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1614235716789,
+      "stop" : 1614235716789,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1614235716789,
+      "stop" : 1614235716789,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1614235718723,
+      "stop" : 1614235718723,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d27052d6c539f8fd",
+      "name" : "返回内容",
+      "source" : "d27052d6c539f8fd.json",
+      "type" : "application/json",
+      "size" : 1009
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "考勤管理>打卡>签到"
+  }, {
+    "name" : "feature",
+    "value" : "考勤管理"
+  }, {
+    "name" : "epic",
+    "value" : "泛微小e意图识别"
+  }, {
+    "name" : "suite",
+    "value" : "intention_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestIntention"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NTA3Ax4"
+  }, {
+    "name" : "thread",
+    "value" : "3020-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.intention_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "circle",
+    "value" : "{'creater': '11634', 'text': '小e，我要签到'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e8ec2c2be0858b2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614235033240,
+        "stop" : 1614235034449,
+        "duration" : 1209
+      }
+    }, {
+      "uid" : "7431f40dd4b57787",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614234368304,
+        "stop" : 1614234369502,
+        "duration" : 1198
+      }
+    }, {
+      "uid" : "c94c9bfe95387827",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614234055546,
+        "stop" : 1614234056768,
+        "duration" : 1222
+      }
+    }, {
+      "uid" : "a138d09ba831e919",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614233980812,
+        "stop" : 1614233981987,
+        "duration" : 1175
+      }
+    }, {
+      "uid" : "ac60bab87c7a5d42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614232568536,
+        "stop" : 1614232569701,
+        "duration" : 1165
+      }
+    }, {
+      "uid" : "31b083416786fc85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614232023788,
+        "stop" : 1614232024973,
+        "duration" : 1185
+      }
+    }, {
+      "uid" : "852978c408c61204",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614231563965,
+        "stop" : 1614231565151,
+        "duration" : 1186
+      }
+    }, {
+      "uid" : "2442212bde5e736c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614231454102,
+        "stop" : 1614231455302,
+        "duration" : 1200
+      }
+    }, {
+      "uid" : "cc9af202ffb5f377",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614231143853,
+        "stop" : 1614231145019,
+        "duration" : 1166
+      }
+    }, {
+      "uid" : "b54ec1fe7037246",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614223928202,
+        "stop" : 1614223929374,
+        "duration" : 1172
+      }
+    }, {
+      "uid" : "cb9fd8d1ba807829",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614223871589,
+        "stop" : 1614223873339,
+        "duration" : 1750
+      }
+    }, {
+      "uid" : "e547b9ab1ade59c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614220325649,
+        "stop" : 1614220326837,
+        "duration" : 1188
+      }
+    }, {
+      "uid" : "79c2f9106d06a8a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614216967378,
+        "stop" : 1614216968571,
+        "duration" : 1193
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "955b67e5dcd07688.json",
+  "parameterValues" : [ "{'creater': '11634', 'text': '小e，我要签到'}" ]
+}

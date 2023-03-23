@@ -1,0 +1,142 @@
+{
+  "uid" : "a14d05d87077ac65",
+  "name" : "test_attendance_sign_back[circle3]",
+  "fullName" : "TestCase.intention_test.TestIntention#test_attendance_sign_back",
+  "historyId" : "4d21e7ba0cf8bb17f8718a887a5f4561",
+  "time" : {
+    "start" : 1614233987520,
+    "stop" : 1614233987642,
+    "duration" : 122
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1614233987519,
+      "stop" : 1614233987519,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1614233978897,
+      "stop" : 1614233978898,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1614233978897,
+      "stop" : 1614233978897,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1614233978897,
+      "stop" : 1614233978897,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ae19964ff9f0dadd",
+      "name" : "返回内容",
+      "source" : "ae19964ff9f0dadd.json",
+      "type" : "application/json",
+      "size" : 709
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "考勤管理>打卡>签退"
+  }, {
+    "name" : "feature",
+    "value" : "考勤管理"
+  }, {
+    "name" : "epic",
+    "value" : "泛微小e意图识别"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "intention_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestIntention"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NTA3Ax4"
+  }, {
+    "name" : "thread",
+    "value" : "9864-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.intention_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "circle",
+    "value" : "{'text': '要下班', 'creater': '11634'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a14d05d87077ac65.json",
+  "parameterValues" : [ "{'text': '要下班', 'creater': '11634'}" ]
+}

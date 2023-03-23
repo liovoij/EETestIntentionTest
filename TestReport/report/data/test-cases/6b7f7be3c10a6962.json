@@ -1,0 +1,248 @@
+{
+  "uid" : "6b7f7be3c10a6962",
+  "name" : "test_attendance_sign_in[circle1]",
+  "fullName" : "TestCase.intention_test.TestIntention#test_attendance_sign_in",
+  "historyId" : "21c7113cec217a378f2f5d45a5671b05",
+  "time" : {
+    "start" : 1614235717544,
+    "stop" : 1614235718720,
+    "duration" : 1176
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1614235716789,
+      "stop" : 1614235716789,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1614235716789,
+      "stop" : 1614235716789,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1614235716789,
+      "stop" : 1614235716789,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1614235717543,
+      "stop" : 1614235717543,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1a02d0e621601e7f",
+      "name" : "返回内容",
+      "source" : "1a02d0e621601e7f.json",
+      "type" : "application/json",
+      "size" : 970
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "考勤管理>打卡>签到"
+  }, {
+    "name" : "feature",
+    "value" : "考勤管理"
+  }, {
+    "name" : "epic",
+    "value" : "泛微小e意图识别"
+  }, {
+    "name" : "suite",
+    "value" : "intention_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestIntention"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NTA3Ax4"
+  }, {
+    "name" : "thread",
+    "value" : "3020-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.intention_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "circle",
+    "value" : "{'creater': '11634', 'text': '打卡'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "690970265a26a042",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614235032056,
+        "stop" : 1614235033235,
+        "duration" : 1179
+      }
+    }, {
+      "uid" : "8d6b23a5c6738d5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614234367098,
+        "stop" : 1614234368300,
+        "duration" : 1202
+      }
+    }, {
+      "uid" : "984e5527b251fb43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614234054258,
+        "stop" : 1614234055542,
+        "duration" : 1284
+      }
+    }, {
+      "uid" : "c315d9aeca4e92e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614233979622,
+        "stop" : 1614233980808,
+        "duration" : 1186
+      }
+    }, {
+      "uid" : "e2acbe4ce4757b2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614232567349,
+        "stop" : 1614232568531,
+        "duration" : 1182
+      }
+    }, {
+      "uid" : "e146cadd676cd74c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614232022597,
+        "stop" : 1614232023784,
+        "duration" : 1187
+      }
+    }, {
+      "uid" : "e17409fbfdcd360c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614231562788,
+        "stop" : 1614231563960,
+        "duration" : 1172
+      }
+    }, {
+      "uid" : "8309e9fb27e9f21a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614231452911,
+        "stop" : 1614231454098,
+        "duration" : 1187
+      }
+    }, {
+      "uid" : "4d9dd34a0b3af8cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614231142676,
+        "stop" : 1614231143850,
+        "duration" : 1174
+      }
+    }, {
+      "uid" : "74ebc39ebd0504e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614223927037,
+        "stop" : 1614223928198,
+        "duration" : 1161
+      }
+    }, {
+      "uid" : "da0759bbca21afc6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614223870407,
+        "stop" : 1614223871586,
+        "duration" : 1179
+      }
+    }, {
+      "uid" : "4b97205e2c82aa04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614220324467,
+        "stop" : 1614220325645,
+        "duration" : 1178
+      }
+    }, {
+      "uid" : "a295ff09c75fb768",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614216966200,
+        "stop" : 1614216967374,
+        "duration" : 1174
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6b7f7be3c10a6962.json",
+  "parameterValues" : [ "{'creater': '11634', 'text': '打卡'}" ]
+}

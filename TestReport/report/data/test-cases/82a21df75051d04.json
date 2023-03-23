@@ -1,0 +1,106 @@
+{
+  "uid" : "82a21df75051d04",
+  "name" : "test_clock_rules[circle1]",
+  "fullName" : "TestCase.intention_test.TestKaoQin#test_clock_rules",
+  "historyId" : "e088f8980ea1d61fcc56e8fc63a6346d",
+  "time" : {
+    "start" : 1679538646808,
+    "stop" : 1679538648033,
+    "duration" : 1225
+  },
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'invoker'",
+  "statusTrace" : "self = <intention_test.TestKaoQin object at 0x00000287ACCA2AC0>\ncircle = {'text': '查询打卡规定'}\n\n    @allure.story('考勤管理>打卡>打卡规定查询')\n    @pytest.mark.parametrize('circle', clock_rules)\n    def test_clock_rules(self, circle):\n        # 请求接口并获取返回的data\n        request = request_get_ceshi(circle['text'])\n        response = json.loads(request['data'])\n        # 接口返回的值\n        response_title = response['intentInfo']['title']\n        response_name = response['intentInfo']['name']\n        response_text = response['text']\n        response_userId = response['userId']\n        response_status = response['status']\n>       response_action = response['invoker']['action']\nE       KeyError: 'invoker'\n\nTestCase\\intention_test.py:147: KeyError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "考勤管理>打卡>打卡规定查询"
+  }, {
+    "name" : "feature",
+    "value" : "考勤管理"
+  }, {
+    "name" : "epic",
+    "value" : "项目名称：泛微小e意图识别"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "intention_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKaoQin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BAUEVGC"
+  }, {
+    "name" : "thread",
+    "value" : "20684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.intention_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "circle",
+    "value" : "{'text': '查询打卡规定'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1c0234b2c009315e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614330307753,
+        "stop" : 1614330308929,
+        "duration" : 1176
+      }
+    }, {
+      "uid" : "22c91a308033de1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614241915269,
+        "stop" : 1614241916441,
+        "duration" : 1172
+      }
+    }, {
+      "uid" : "1fc329970dda2f29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614241514595,
+        "stop" : 1614241515900,
+        "duration" : 1305
+      }
+    }, {
+      "uid" : "79dd08a0a7b54d02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614238744378,
+        "stop" : 1614238745547,
+        "duration" : 1169
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "82a21df75051d04.json",
+  "parameterValues" : [ "{'text': '查询打卡规定'}" ]
+}

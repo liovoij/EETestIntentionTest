@@ -1,0 +1,92 @@
+{
+  "uid" : "5b4c0aab23cbf0cb",
+  "name" : "test_report_attendance[circle4]",
+  "fullName" : "TestCase.intention_test.TestKaoQin#test_report_attendance",
+  "historyId" : "547a3fabfb06f48c89383f02f790937a",
+  "time" : {
+    "start" : 1679538691447,
+    "stop" : 1679538693332,
+    "duration" : 1885
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e0403cd5402f78bd",
+      "name" : "返回内容",
+      "source" : "e0403cd5402f78bd.json",
+      "type" : "application/json",
+      "size" : 1238
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "考勤管理>考勤报表"
+  }, {
+    "name" : "feature",
+    "value" : "考勤管理"
+  }, {
+    "name" : "epic",
+    "value" : "项目名称：泛微小e意图识别"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "intention_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKaoQin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BAUEVGC"
+  }, {
+    "name" : "thread",
+    "value" : "20684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.intention_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "circle",
+    "value" : "{'text': '我这个月迟到了没有？'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "565714f9520050f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614330342065,
+        "stop" : 1614330342625,
+        "duration" : 560
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5b4c0aab23cbf0cb.json",
+  "parameterValues" : [ "{'text': '我这个月迟到了没有？'}" ]
+}

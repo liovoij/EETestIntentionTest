@@ -1,0 +1,152 @@
+{
+  "uid" : "359db127b38d0704",
+  "name" : "test_clock_rules[circle5]",
+  "fullName" : "TestCase.intention_test.TestIntention#test_clock_rules",
+  "historyId" : "56a0b48868bc31f18650a248254192ce",
+  "time" : {
+    "start" : 1614236707758,
+    "stop" : 1614236708926,
+    "duration" : 1168
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 意图title不同，期望：查询打卡规定，实际：打卡规定查询\nassert '打卡规定查询' == '查询打卡规定'\n  - 打卡规定查询\n  + 查询打卡规定",
+  "statusTrace" : "self = <intention_test.TestIntention object at 0x000001FE38ADDA20>\ncircle = {'text': '打卡规则是啥'}\n\n    @allure.story('考勤管理>打卡>打卡规定查询')\n    @pytest.mark.parametrize('circle', clock_rules)\n    def test_clock_rules(self, circle):\n        # 请求接口并获取返回的data\n        request = request_get_ceshi(circle['text'])\n        response = json.loads(request['data'])\n        # 接口返回的值\n        response_title = response['intentInfo']['title']\n        response_name = response['intentInfo']['name']\n        response_text = response['text']\n        response_userId = response['userId']\n        response_status = response['status']\n        response_action = response['invoker']['action']\n        # 期待的结果\n        except_title = '查询打卡规定'\n        except_name = 'attendance_punch.clock_query.clock.rules'\n        except_text = circle['text']\n        except_userId = '11634'\n        except_status = 'FINISH'\n        except_action = 'url:https://test.ai.easst.cn/easst/findUser?method=find_person'\n        # 添加至allure\n        allure.attach(str(request), '返回内容', allure.attachment_type.JSON)\n        # 断言\n>       assert response_title == except_title, \"意图title不同，期望：%s，实际：%s\" % (except_title, response_title)\nE       AssertionError: 意图title不同，期望：查询打卡规定，实际：打卡规定查询\nE       assert '打卡规定查询' == '查询打卡规定'\nE         - 打卡规定查询\nE         + 查询打卡规定\n\nTestCase\\intention_test.py:158: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1614236702226,
+      "stop" : 1614236702226,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1614236702226,
+      "stop" : 1614236702226,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1614236707758,
+      "stop" : 1614236707758,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1614236702226,
+      "stop" : 1614236702226,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: 意图title不同，期望：查询打卡规定，实际：打卡规定查询\nassert '打卡规定查询' == '查询打卡规定'\n  - 打卡规定查询\n  + 查询打卡规定",
+    "statusTrace" : "self = <intention_test.TestIntention object at 0x000001FE38ADDA20>\ncircle = {'text': '打卡规则是啥'}\n\n    @allure.story('考勤管理>打卡>打卡规定查询')\n    @pytest.mark.parametrize('circle', clock_rules)\n    def test_clock_rules(self, circle):\n        # 请求接口并获取返回的data\n        request = request_get_ceshi(circle['text'])\n        response = json.loads(request['data'])\n        # 接口返回的值\n        response_title = response['intentInfo']['title']\n        response_name = response['intentInfo']['name']\n        response_text = response['text']\n        response_userId = response['userId']\n        response_status = response['status']\n        response_action = response['invoker']['action']\n        # 期待的结果\n        except_title = '查询打卡规定'\n        except_name = 'attendance_punch.clock_query.clock.rules'\n        except_text = circle['text']\n        except_userId = '11634'\n        except_status = 'FINISH'\n        except_action = 'url:https://test.ai.easst.cn/easst/findUser?method=find_person'\n        # 添加至allure\n        allure.attach(str(request), '返回内容', allure.attachment_type.JSON)\n        # 断言\n>       assert response_title == except_title, \"意图title不同，期望：%s，实际：%s\" % (except_title, response_title)\nE       AssertionError: 意图title不同，期望：查询打卡规定，实际：打卡规定查询\nE       assert '打卡规定查询' == '查询打卡规定'\nE         - 打卡规定查询\nE         + 查询打卡规定\n\nTestCase\\intention_test.py:158: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4e5bf08c3f53eba2",
+      "name" : "返回内容",
+      "source" : "4e5bf08c3f53eba2.json",
+      "type" : "application/json",
+      "size" : 735
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "考勤管理"
+  }, {
+    "name" : "epic",
+    "value" : "泛微小e意图识别"
+  }, {
+    "name" : "story",
+    "value" : "考勤管理>打卡>打卡规定查询"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestIntention"
+  }, {
+    "name" : "suite",
+    "value" : "intention_test"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NTA3Ax4"
+  }, {
+    "name" : "thread",
+    "value" : "14536-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.intention_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "circle",
+    "value" : "{'text': '打卡规则是啥'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "359db127b38d0704.json",
+  "parameterValues" : [ "{'text': '打卡规则是啥'}" ]
+}

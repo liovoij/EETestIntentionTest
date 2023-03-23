@@ -1,0 +1,92 @@
+{
+  "uid" : "a840c3727293f6d6",
+  "name" : "test_attendance_leave_query_system[circle1]",
+  "fullName" : "TestCase.intention_test.TestKaoQin#test_attendance_leave_query_system",
+  "historyId" : "ffd36572514f342cb6ffcbe84ae9f3bf",
+  "time" : {
+    "start" : 1679538669941,
+    "stop" : 1679538670510,
+    "duration" : 569
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a076b2788055fb96",
+      "name" : "返回内容",
+      "source" : "a076b2788055fb96.json",
+      "type" : "application/json",
+      "size" : 701
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "考勤管理>请假>查询请假制度"
+  }, {
+    "name" : "feature",
+    "value" : "考勤管理"
+  }, {
+    "name" : "epic",
+    "value" : "项目名称：泛微小e意图识别"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "intention_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKaoQin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BAUEVGC"
+  }, {
+    "name" : "thread",
+    "value" : "20684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.intention_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "circle",
+    "value" : "{'text': '年假是怎么计算的'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7f7826aa89703850",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614330324437,
+        "stop" : 1614330325671,
+        "duration" : 1234
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a840c3727293f6d6.json",
+  "parameterValues" : [ "{'text': '年假是怎么计算的'}" ]
+}

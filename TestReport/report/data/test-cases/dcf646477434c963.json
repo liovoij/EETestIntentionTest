@@ -1,0 +1,92 @@
+{
+  "uid" : "dcf646477434c963",
+  "name" : "test_leave_create[circle1]",
+  "fullName" : "TestCase.intention_test.TestKaoQin#test_leave_create",
+  "historyId" : "0005f38d419729157ab431a68c9b6b2e",
+  "time" : {
+    "start" : 1679538657328,
+    "stop" : 1679538660081,
+    "duration" : 2753
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "eecf18c99612c028",
+      "name" : "返回内容",
+      "source" : "eecf18c99612c028.json",
+      "type" : "application/json",
+      "size" : 1276
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "考勤管理"
+  }, {
+    "name" : "story",
+    "value" : "考勤管理>请假>请假"
+  }, {
+    "name" : "epic",
+    "value" : "项目名称：泛微小e意图识别"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "intention_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKaoQin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BAUEVGC"
+  }, {
+    "name" : "thread",
+    "value" : "20684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.intention_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "circle",
+    "value" : "{'text': '今天下午2点到后天下午3点请假，身体不舒服年假。'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "beb97700a220bf3f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614330314436,
+        "stop" : 1614330316112,
+        "duration" : 1676
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dcf646477434c963.json",
+  "parameterValues" : [ "{'text': '今天下午2点到后天下午3点请假，身体不舒服年假。'}" ]
+}

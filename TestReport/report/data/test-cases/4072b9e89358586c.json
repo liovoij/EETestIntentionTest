@@ -1,0 +1,92 @@
+{
+  "uid" : "4072b9e89358586c",
+  "name" : "test_leave_create[circle2]",
+  "fullName" : "TestCase.intention_test.TestKaoQin#test_leave_create",
+  "historyId" : "b723daeb35350d8dc9ace0363c99163c",
+  "time" : {
+    "start" : 1679538660086,
+    "stop" : 1679538662303,
+    "duration" : 2217
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2c7254ee89cbffcb",
+      "name" : "返回内容",
+      "source" : "2c7254ee89cbffcb.json",
+      "type" : "application/json",
+      "size" : 1601
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "考勤管理"
+  }, {
+    "name" : "story",
+    "value" : "考勤管理>请假>请假"
+  }, {
+    "name" : "epic",
+    "value" : "项目名称：泛微小e意图识别"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "intention_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKaoQin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BAUEVGC"
+  }, {
+    "name" : "thread",
+    "value" : "20684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.intention_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "circle",
+    "value" : "{'text': '昨天早上8:30到晚上5:30请假，家中有事。'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d2be9876dc8629eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614330316117,
+        "stop" : 1614330317707,
+        "duration" : 1590
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4072b9e89358586c.json",
+  "parameterValues" : [ "{'text': '昨天早上8:30到晚上5:30请假，家中有事。'}" ]
+}

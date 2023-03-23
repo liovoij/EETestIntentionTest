@@ -1,0 +1,92 @@
+{
+  "uid" : "b0278a37f07d1375",
+  "name" : "test_leave_create[circle0]",
+  "fullName" : "TestCase.intention_test.TestKaoQin#test_leave_create",
+  "historyId" : "8af6b5bc93ee5f6d3f64107e2d8dd292",
+  "time" : {
+    "start" : 1679538653628,
+    "stop" : 1679538657324,
+    "duration" : 3696
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "76b491e6dafbb248",
+      "name" : "返回内容",
+      "source" : "76b491e6dafbb248.json",
+      "type" : "application/json",
+      "size" : 1519
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "考勤管理"
+  }, {
+    "name" : "story",
+    "value" : "考勤管理>请假>请假"
+  }, {
+    "name" : "epic",
+    "value" : "项目名称：泛微小e意图识别"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "intention_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKaoQin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BAUEVGC"
+  }, {
+    "name" : "thread",
+    "value" : "20684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.intention_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "circle",
+    "value" : "{'text': '我不舒服不来上班了'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8061a18d7b9af80b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614330312928,
+        "stop" : 1614330314431,
+        "duration" : 1503
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b0278a37f07d1375.json",
+  "parameterValues" : [ "{'text': '我不舒服不来上班了'}" ]
+}

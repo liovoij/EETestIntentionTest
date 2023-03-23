@@ -1,0 +1,4513 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-NTA3Ax4",
+    "children" : [ {
+      "name" : "20820-MainThread",
+      "children" : [ {
+        "name" : "test_clock_rules[circle3]",
+        "uid" : "e4e33e290a1e9cbc",
+        "parentUid" : "ee132b62103d085827e7bca00b26d0dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614238746758,
+          "stop" : 1614238747953,
+          "duration" : 1195
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '考勤打卡制度查询'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle4]",
+        "uid" : "1232748333578bba",
+        "parentUid" : "ee132b62103d085827e7bca00b26d0dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614238733601,
+          "stop" : 1614238734873,
+          "duration" : 1272
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '小e帮我考勤打卡', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_clock_rules[circle0]",
+        "uid" : "9b9a754260fe93c7",
+        "parentUid" : "ee132b62103d085827e7bca00b26d0dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614238743195,
+          "stop" : 1614238744373,
+          "duration" : 1178
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '关于打卡有啥规定'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle1]",
+        "uid" : "fb2635fde3f25c80",
+        "parentUid" : "ee132b62103d085827e7bca00b26d0dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614238736642,
+          "stop" : 1614238736752,
+          "duration" : 110
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '下班', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle0]",
+        "uid" : "f3b06d9b8f36c6c5",
+        "parentUid" : "ee132b62103d085827e7bca00b26d0dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614238729355,
+          "stop" : 1614238730084,
+          "duration" : 729
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '签到', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_outside_sign_in[circle0]",
+        "uid" : "47de04bdef9c34ae",
+        "parentUid" : "ee132b62103d085827e7bca00b26d0dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614238740696,
+          "stop" : 1614238741202,
+          "duration" : 506
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打外勤卡'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle5]",
+        "uid" : "7f1ec84b5d9ef0df",
+        "parentUid" : "ee132b62103d085827e7bca00b26d0dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614238734877,
+          "stop" : 1614238736116,
+          "duration" : 1239
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '想考勤', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle6]",
+        "uid" : "23dc0c8f6595ba9e",
+        "parentUid" : "ee132b62103d085827e7bca00b26d0dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614238739458,
+          "stop" : 1614238740693,
+          "duration" : 1235
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '我要下班了啦', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_clock_rules[circle1]",
+        "uid" : "79dd08a0a7b54d02",
+        "parentUid" : "ee132b62103d085827e7bca00b26d0dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614238744378,
+          "stop" : 1614238745547,
+          "duration" : 1169
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '查询打卡规定'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle3]",
+        "uid" : "f6e2d62d9323d501",
+        "parentUid" : "ee132b62103d085827e7bca00b26d0dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614238732433,
+          "stop" : 1614238733597,
+          "duration" : 1164
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打卡考勤', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle1]",
+        "uid" : "6d2bee17fdc5e57b",
+        "parentUid" : "ee132b62103d085827e7bca00b26d0dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614238730088,
+          "stop" : 1614238731252,
+          "duration" : 1164
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打卡', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle4]",
+        "uid" : "d2bd29bc760793e1",
+        "parentUid" : "ee132b62103d085827e7bca00b26d0dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614238738110,
+          "stop" : 1614238739343,
+          "duration" : 1233
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '要下班了啦', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_clock_rules[circle5]",
+        "uid" : "4263c0186ab837d7",
+        "parentUid" : "ee132b62103d085827e7bca00b26d0dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614238748403,
+          "stop" : 1614238749646,
+          "duration" : 1243
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打卡规则是啥'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle3]",
+        "uid" : "71740d84b0738dd2",
+        "parentUid" : "ee132b62103d085827e7bca00b26d0dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614238737992,
+          "stop" : 1614238738106,
+          "duration" : 114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '要下班', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_clock_rules[circle4]",
+        "uid" : "1bb81f664ee3d941",
+        "parentUid" : "ee132b62103d085827e7bca00b26d0dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614238747957,
+          "stop" : 1614238748399,
+          "duration" : 442
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '签到有啥规定'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle5]",
+        "uid" : "c924d3b7ea217f9a",
+        "parentUid" : "ee132b62103d085827e7bca00b26d0dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614238739346,
+          "stop" : 1614238739455,
+          "duration" : 109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '我要下班', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle2]",
+        "uid" : "2ac1a5f7d7946adb",
+        "parentUid" : "ee132b62103d085827e7bca00b26d0dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614238736756,
+          "stop" : 1614238737988,
+          "duration" : 1232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '下班了啦', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_clock_rules[circle2]",
+        "uid" : "c14202e3a95bb452",
+        "parentUid" : "ee132b62103d085827e7bca00b26d0dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614238745551,
+          "stop" : 1614238746755,
+          "duration" : 1204
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打卡制度查询'}" ]
+      }, {
+        "name" : "test_attendance_outside_sign_back[circle0]",
+        "uid" : "9d31571e68716ab1",
+        "parentUid" : "ee132b62103d085827e7bca00b26d0dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614238742452,
+          "stop" : 1614238743191,
+          "duration" : 739
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '外勤签退'}" ]
+      }, {
+        "name" : "test_attendance_outside_sign_in[circle1]",
+        "uid" : "b4add65da5549d83",
+        "parentUid" : "ee132b62103d085827e7bca00b26d0dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614238741205,
+          "stop" : 1614238742449,
+          "duration" : 1244
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '帮我签个外勤卡'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle2]",
+        "uid" : "5e01fb965cc70060",
+        "parentUid" : "ee132b62103d085827e7bca00b26d0dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614238731256,
+          "stop" : 1614238732429,
+          "duration" : 1173
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '小e，我要签到', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle0]",
+        "uid" : "22f452fc143fc628",
+        "parentUid" : "ee132b62103d085827e7bca00b26d0dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614238736121,
+          "stop" : 1614238736638,
+          "duration" : 517
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '签退', 'creater': '11634'}" ]
+      } ],
+      "uid" : "ee132b62103d085827e7bca00b26d0dd"
+    }, {
+      "name" : "23008-MainThread",
+      "children" : [ {
+        "name" : "test_clock_rules[circle1]",
+        "uid" : "1fc329970dda2f29",
+        "parentUid" : "597cc8c40edbf9b808b4316cb3c34c4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614241514595,
+          "stop" : 1614241515900,
+          "duration" : 1305
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '查询打卡规定'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle4]",
+        "uid" : "b5b073155041e5ba",
+        "parentUid" : "597cc8c40edbf9b808b4316cb3c34c4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614241508229,
+          "stop" : 1614241509462,
+          "duration" : 1233
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '要下班了啦'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle0]",
+        "uid" : "f3660b8e2b606540",
+        "parentUid" : "597cc8c40edbf9b808b4316cb3c34c4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614241506236,
+          "stop" : 1614241506748,
+          "duration" : 512
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '签退'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle1]",
+        "uid" : "c55421a11631f43d",
+        "parentUid" : "597cc8c40edbf9b808b4316cb3c34c4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614241500253,
+          "stop" : 1614241501421,
+          "duration" : 1168
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '打卡'}" ]
+      }, {
+        "name" : "test_attendance_outside_sign_in[circle1]",
+        "uid" : "3877c51a1733dfbe",
+        "parentUid" : "597cc8c40edbf9b808b4316cb3c34c4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614241511430,
+          "stop" : 1614241512661,
+          "duration" : 1231
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '帮我签个外勤卡'}" ]
+      }, {
+        "name" : "test_attendance_outside_sign_back[circle0]",
+        "uid" : "4d93459776bb072d",
+        "parentUid" : "597cc8c40edbf9b808b4316cb3c34c4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614241512665,
+          "stop" : 1614241513412,
+          "duration" : 747
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '外勤签退'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle2]",
+        "uid" : "d26f152637251d7d",
+        "parentUid" : "597cc8c40edbf9b808b4316cb3c34c4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614241506865,
+          "stop" : 1614241508105,
+          "duration" : 1240
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '下班了啦'}" ]
+      }, {
+        "name" : "test_clock_rules[circle0]",
+        "uid" : "e7a3d9c6cc94787d",
+        "parentUid" : "597cc8c40edbf9b808b4316cb3c34c4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614241513416,
+          "stop" : 1614241514591,
+          "duration" : 1175
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '关于打卡有啥规定'}" ]
+      }, {
+        "name" : "test_attendance_outside_sign_in[circle0]",
+        "uid" : "810bc25c0aa99b1f",
+        "parentUid" : "597cc8c40edbf9b808b4316cb3c34c4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614241510915,
+          "stop" : 1614241511426,
+          "duration" : 511
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打外勤卡'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle3]",
+        "uid" : "4074c0dfc70254ba",
+        "parentUid" : "597cc8c40edbf9b808b4316cb3c34c4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614241502621,
+          "stop" : 1614241503810,
+          "duration" : 1189
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '打卡考勤'}" ]
+      }, {
+        "name" : "test_clock_rules[circle3]",
+        "uid" : "433de80fbbdb886f",
+        "parentUid" : "597cc8c40edbf9b808b4316cb3c34c4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614241517090,
+          "stop" : 1614241518283,
+          "duration" : 1193
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '考勤打卡制度查询'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle5]",
+        "uid" : "e3b56168c9bb1ab7",
+        "parentUid" : "597cc8c40edbf9b808b4316cb3c34c4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614241505010,
+          "stop" : 1614241506232,
+          "duration" : 1222
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '想考勤'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle5]",
+        "uid" : "3fcac22fd5ccd689",
+        "parentUid" : "597cc8c40edbf9b808b4316cb3c34c4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614241509466,
+          "stop" : 1614241509589,
+          "duration" : 123
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '我要下班'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle4]",
+        "uid" : "a9a913d3a519048d",
+        "parentUid" : "597cc8c40edbf9b808b4316cb3c34c4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614241503814,
+          "stop" : 1614241505006,
+          "duration" : 1192
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '小e帮我考勤打卡'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle2]",
+        "uid" : "de57a713df393d4e",
+        "parentUid" : "597cc8c40edbf9b808b4316cb3c34c4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614241501426,
+          "stop" : 1614241502617,
+          "duration" : 1191
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '小e，我要签到'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle3]",
+        "uid" : "7e969edb1fdce086",
+        "parentUid" : "597cc8c40edbf9b808b4316cb3c34c4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614241508110,
+          "stop" : 1614241508225,
+          "duration" : 115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '要下班'}" ]
+      }, {
+        "name" : "test_clock_rules[circle2]",
+        "uid" : "93eba14adc60b411",
+        "parentUid" : "597cc8c40edbf9b808b4316cb3c34c4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614241515904,
+          "stop" : 1614241517086,
+          "duration" : 1182
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打卡制度查询'}" ]
+      }, {
+        "name" : "test_clock_rules[circle5]",
+        "uid" : "617e661b494c9006",
+        "parentUid" : "597cc8c40edbf9b808b4316cb3c34c4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614241518740,
+          "stop" : 1614241519906,
+          "duration" : 1166
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打卡规则是啥'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle1]",
+        "uid" : "8c5acf9f51ad548",
+        "parentUid" : "597cc8c40edbf9b808b4316cb3c34c4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614241506753,
+          "stop" : 1614241506860,
+          "duration" : 107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '下班'}" ]
+      }, {
+        "name" : "test_clock_rules[circle4]",
+        "uid" : "15904e80bacb3a17",
+        "parentUid" : "597cc8c40edbf9b808b4316cb3c34c4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614241518287,
+          "stop" : 1614241518735,
+          "duration" : 448
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '签到有啥规定'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle6]",
+        "uid" : "f521e19e13994ab4",
+        "parentUid" : "597cc8c40edbf9b808b4316cb3c34c4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614241509593,
+          "stop" : 1614241510910,
+          "duration" : 1317
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '我要下班了啦'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle0]",
+        "uid" : "66b2ac1051fce160",
+        "parentUid" : "597cc8c40edbf9b808b4316cb3c34c4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614241499438,
+          "stop" : 1614241500249,
+          "duration" : 811
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '签到'}" ]
+      } ],
+      "uid" : "597cc8c40edbf9b808b4316cb3c34c4c"
+    }, {
+      "name" : "23972-MainThread",
+      "children" : [ {
+        "name" : "test_attendance_outside_sign_in[circle0]",
+        "uid" : "e7fb503dd3b516db",
+        "parentUid" : "0dbfe3f1f9daae18aebee3690cdffe17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614235043539,
+          "stop" : 1614235044038,
+          "duration" : 499
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打外勤卡'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle6]",
+        "uid" : "169ab8e39ababb63",
+        "parentUid" : "0dbfe3f1f9daae18aebee3690cdffe17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614235042269,
+          "stop" : 1614235043535,
+          "duration" : 1266
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '我要下班了啦', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle3]",
+        "uid" : "8e804e11b0ab82df",
+        "parentUid" : "0dbfe3f1f9daae18aebee3690cdffe17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614235034458,
+          "stop" : 1614235035683,
+          "duration" : 1225
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打卡考勤', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle0]",
+        "uid" : "9a91da175be3d6ad",
+        "parentUid" : "0dbfe3f1f9daae18aebee3690cdffe17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614235031322,
+          "stop" : 1614235032052,
+          "duration" : 730
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '签到', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle4]",
+        "uid" : "a48e7558b6d8dff0",
+        "parentUid" : "0dbfe3f1f9daae18aebee3690cdffe17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614235035687,
+          "stop" : 1614235037529,
+          "duration" : 1842
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '小e帮我考勤打卡', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle4]",
+        "uid" : "fc2d69a3f3ff06ab",
+        "parentUid" : "0dbfe3f1f9daae18aebee3690cdffe17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614235040908,
+          "stop" : 1614235042155,
+          "duration" : 1247
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '要下班了啦', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle0]",
+        "uid" : "621b766df6555065",
+        "parentUid" : "0dbfe3f1f9daae18aebee3690cdffe17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614235038871,
+          "stop" : 1614235039380,
+          "duration" : 509
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '签退', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle1]",
+        "uid" : "1621cd67133d3db0",
+        "parentUid" : "0dbfe3f1f9daae18aebee3690cdffe17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614235039385,
+          "stop" : 1614235039499,
+          "duration" : 114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '下班', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_outside_sign_back[circle0]",
+        "uid" : "be5f357146f0f4b6",
+        "parentUid" : "0dbfe3f1f9daae18aebee3690cdffe17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614235045292,
+          "stop" : 1614235046039,
+          "duration" : 747
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '外勤签退'}" ]
+      }, {
+        "name" : "test_attendance_outside_sign_in[circle1]",
+        "uid" : "7c903e248139e8ec",
+        "parentUid" : "0dbfe3f1f9daae18aebee3690cdffe17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614235044043,
+          "stop" : 1614235045288,
+          "duration" : 1245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '帮我签个外勤卡'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle5]",
+        "uid" : "a649770566933ad5",
+        "parentUid" : "0dbfe3f1f9daae18aebee3690cdffe17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614235042160,
+          "stop" : 1614235042266,
+          "duration" : 106
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '我要下班', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle2]",
+        "uid" : "e8ec2c2be0858b2d",
+        "parentUid" : "0dbfe3f1f9daae18aebee3690cdffe17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614235033240,
+          "stop" : 1614235034449,
+          "duration" : 1209
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '小e，我要签到', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle3]",
+        "uid" : "2a7ed51facffd7f7",
+        "parentUid" : "0dbfe3f1f9daae18aebee3690cdffe17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614235040782,
+          "stop" : 1614235040904,
+          "duration" : 122
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '要下班', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle1]",
+        "uid" : "690970265a26a042",
+        "parentUid" : "0dbfe3f1f9daae18aebee3690cdffe17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614235032056,
+          "stop" : 1614235033235,
+          "duration" : 1179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打卡', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle2]",
+        "uid" : "13a2c348fe23ca74",
+        "parentUid" : "0dbfe3f1f9daae18aebee3690cdffe17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614235039503,
+          "stop" : 1614235040777,
+          "duration" : 1274
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '下班了啦', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle5]",
+        "uid" : "26e9ea59132a60be",
+        "parentUid" : "0dbfe3f1f9daae18aebee3690cdffe17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614235037534,
+          "stop" : 1614235038865,
+          "duration" : 1331
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '想考勤', 'creater': '11634'}" ]
+      } ],
+      "uid" : "0dbfe3f1f9daae18aebee3690cdffe17"
+    }, {
+      "name" : "10760-MainThread",
+      "children" : [ {
+        "name" : "test_clock_rules[circle1]",
+        "uid" : "1c0234b2c009315e",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330307753,
+          "stop" : 1614330308929,
+          "duration" : 1176
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '查询打卡规定'}" ]
+      }, {
+        "name" : "test_report_vacation[circle5]",
+        "uid" : "6d1d9c6ac8a73d56",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330335753,
+          "stop" : 1614330337003,
+          "duration" : 1250
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '我的年假有多少？'}" ]
+      }, {
+        "name" : "test_report_attendance[circle2]",
+        "uid" : "15028f463738765b",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330339546,
+          "stop" : 1614330340793,
+          "duration" : 1247
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '我的考勤数据。'}" ]
+      }, {
+        "name" : "test_attendance_leave_query_system[circle0]",
+        "uid" : "a2b066a2f7b0b74f",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330324148,
+          "stop" : 1614330324433,
+          "duration" : 285
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '病假有什么规定'}" ]
+      }, {
+        "name" : "test_report_vacation[circle0]",
+        "uid" : "29bf1bbc5be5e048",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330329454,
+          "stop" : 1614330330695,
+          "duration" : 1241
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '帮我查一下假期额度。'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle4]",
+        "uid" : "20dee86fddde2d09",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330297114,
+          "stop" : 1614330298292,
+          "duration" : 1178
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '小e帮我考勤打卡', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_report_vacation[circle3]",
+        "uid" : "b9709a0d0f1738b0",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330333238,
+          "stop" : 1614330334494,
+          "duration" : 1256
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '我的假期剩余天数。'}" ]
+      }, {
+        "name" : "test_attendance_leave_query_system[circle2]",
+        "uid" : "b467eaa562154bcb",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330325675,
+          "stop" : 1614330326935,
+          "duration" : 1260
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '公司的陪产假是几天'}" ]
+      }, {
+        "name" : "test_report_vacation[circle1]",
+        "uid" : "24c86a77a18db70a",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330330699,
+          "stop" : 1614330331948,
+          "duration" : 1249
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '小e查一下我还剩多少假期。'}" ]
+      }, {
+        "name" : "test_attendance_outside_sign_back[circle0]",
+        "uid" : "c24ec91b37fc43a5",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330305814,
+          "stop" : 1614330306565,
+          "duration" : 751
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '外勤签退'}" ]
+      }, {
+        "name" : "test_clock_rules[circle4]",
+        "uid" : "2b6ecc39fd3c9ef3",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330311314,
+          "stop" : 1614330311764,
+          "duration" : 450
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '签到有啥规定'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle1]",
+        "uid" : "6d70e6d01819ed6a",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330300018,
+          "stop" : 1614330300120,
+          "duration" : 102
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '下班', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_report_vacation[circle2]",
+        "uid" : "e486f5ed160177b8",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330331952,
+          "stop" : 1614330333234,
+          "duration" : 1282
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '查询数据，帮我查一下我还有多少天年假。'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle2]",
+        "uid" : "d072cf4cf385cefd",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330300124,
+          "stop" : 1614330301374,
+          "duration" : 1250
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '下班了啦', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle0]",
+        "uid" : "3dce55bb0ef22b91",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330299504,
+          "stop" : 1614330300013,
+          "duration" : 509
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '签退', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_leave_query_system[circle4]",
+        "uid" : "491a8a84aeeeb482",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330328196,
+          "stop" : 1614330329450,
+          "duration" : 1254
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '不休带薪病假会自动清零吗'}" ]
+      }, {
+        "name" : "test_attendance_outside_sign_in[circle1]",
+        "uid" : "d05b764ad08a5d7c",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330304572,
+          "stop" : 1614330305810,
+          "duration" : 1238
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '帮我签个外勤卡'}" ]
+      }, {
+        "name" : "test_attendance_leave_recall[circle0]",
+        "uid" : "6fefcf7de2506552",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330321917,
+          "stop" : 1614330323138,
+          "duration" : 1221
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '帮我撤回请假流程'}" ]
+      }, {
+        "name" : "test_clock_rules[circle2]",
+        "uid" : "14e5e5524139544a",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330308933,
+          "stop" : 1614330310111,
+          "duration" : 1178
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打卡制度查询'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle3]",
+        "uid" : "385e1fe78b89b9bd",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330295936,
+          "stop" : 1614330297109,
+          "duration" : 1173
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打卡考勤', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_report_vacation[circle4]",
+        "uid" : "663b4d139b3d81b0",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330334499,
+          "stop" : 1614330335748,
+          "duration" : 1249
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '查看带薪假期。'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle6]",
+        "uid" : "b42d0a1a06740879",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330302821,
+          "stop" : 1614330304056,
+          "duration" : 1235
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '我要下班了啦', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_report_attendance[circle3]",
+        "uid" : "ec11cb7404e48a31",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330340797,
+          "stop" : 1614330342061,
+          "duration" : 1264
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '查询一下我的历史请假信息。'}" ]
+      }, {
+        "name" : "test_clock_rules[circle5]",
+        "uid" : "dc55a4ed633c70e8",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330311768,
+          "stop" : 1614330312924,
+          "duration" : 1156
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打卡规则是啥'}" ]
+      }, {
+        "name" : "test_attendance_leave_query_system[circle3]",
+        "uid" : "957ca9675cfe666a",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330326939,
+          "stop" : 1614330328192,
+          "duration" : 1253
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '我的年假怎么突然没有了'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle5]",
+        "uid" : "749f294aebeeaba",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330302720,
+          "stop" : 1614330302817,
+          "duration" : 97
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '我要下班', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle5]",
+        "uid" : "194223126d3927f9",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330298295,
+          "stop" : 1614330299500,
+          "duration" : 1205
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '想考勤', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_leave_query_system[circle1]",
+        "uid" : "7f7826aa89703850",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330324437,
+          "stop" : 1614330325671,
+          "duration" : 1234
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '年假是怎么计算的'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle4]",
+        "uid" : "fe82a6a24b18e4e1",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330301483,
+          "stop" : 1614330302716,
+          "duration" : 1233
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '要下班了啦', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_leave_create[circle1]",
+        "uid" : "beb97700a220bf3f",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330314436,
+          "stop" : 1614330316112,
+          "duration" : 1676
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '今天下午2点到后天下午3点请假，身体不舒服年假。'}" ]
+      }, {
+        "name" : "test_clock_rules[circle3]",
+        "uid" : "765859a04145fbef",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330310117,
+          "stop" : 1614330311310,
+          "duration" : 1193
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '考勤打卡制度查询'}" ]
+      }, {
+        "name" : "test_attendance_outside_sign_in[circle0]",
+        "uid" : "6a7874c4931ac94a",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330304061,
+          "stop" : 1614330304567,
+          "duration" : 506
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打外勤卡'}" ]
+      }, {
+        "name" : "test_leave_create[circle3]",
+        "uid" : "b9fe746e59aed8b5",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330317711,
+          "stop" : 1614330319086,
+          "duration" : 1375
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '帮我提交下周三天的年假。'}" ]
+      }, {
+        "name" : "test_leave_create[circle2]",
+        "uid" : "d2be9876dc8629eb",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330316117,
+          "stop" : 1614330317707,
+          "duration" : 1590
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '昨天早上8:30到晚上5:30请假，家中有事。'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle0]",
+        "uid" : "9f10b683ba06705f",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330292854,
+          "stop" : 1614330293578,
+          "duration" : 724
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '签到', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_clock_rules[circle0]",
+        "uid" : "2a75c79802bebb6a",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330306569,
+          "stop" : 1614330307743,
+          "duration" : 1174
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '关于打卡有啥规定'}" ]
+      }, {
+        "name" : "test_report_attendance[circle0]",
+        "uid" : "b1d6470df4acb478",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330337007,
+          "stop" : 1614330338275,
+          "duration" : 1268
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '帮我查看一下我的考勤报表。'}" ]
+      }, {
+        "name" : "test_leave_create[circle4]",
+        "uid" : "87d779711625c0a7",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330319094,
+          "stop" : 1614330320531,
+          "duration" : 1437
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '，帮我请下周一到周五请5天年假。'}" ]
+      }, {
+        "name" : "test_leave_create[circle5]",
+        "uid" : "7927cc37c65339ec",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330320535,
+          "stop" : 1614330321913,
+          "duration" : 1378
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '明天请假一天。'}" ]
+      }, {
+        "name" : "test_report_attendance[circle4]",
+        "uid" : "565714f9520050f9",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330342065,
+          "stop" : 1614330342625,
+          "duration" : 560
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '我这个月迟到了没有？'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle3]",
+        "uid" : "29dff311b1cc5797",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330301377,
+          "stop" : 1614330301479,
+          "duration" : 102
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '要下班', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_report_attendance[circle1]",
+        "uid" : "52f7d14fb81784b5",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330338279,
+          "stop" : 1614330339542,
+          "duration" : 1263
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '我的考勤情况时什么样子的？'}" ]
+      }, {
+        "name" : "test_leave_create[circle0]",
+        "uid" : "8061a18d7b9af80b",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330312928,
+          "stop" : 1614330314431,
+          "duration" : 1503
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '我不舒服不来上班了'}" ]
+      }, {
+        "name" : "test_attendance_leave_recall[circle1]",
+        "uid" : "6b0a7c75465855c",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330323142,
+          "stop" : 1614330324144,
+          "duration" : 1002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '我不想请假了'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle1]",
+        "uid" : "ca38278d60e8993a",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330293582,
+          "stop" : 1614330294743,
+          "duration" : 1161
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打卡', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle2]",
+        "uid" : "458411eb78671b7e",
+        "parentUid" : "621da723f53adc2af87b00028fd3760b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614330294747,
+          "stop" : 1614330295932,
+          "duration" : 1185
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '小e，我要签到', 'creater': '11634'}" ]
+      } ],
+      "uid" : "621da723f53adc2af87b00028fd3760b"
+    }, {
+      "name" : "18672-MainThread",
+      "children" : [ {
+        "name" : "test_attendance_sign_back[circle5]",
+        "uid" : "c2d1701cc9fabd78",
+        "parentUid" : "7bad7378b66c4d74b9d5fd017653edf7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614223880586,
+          "stop" : 1614223880766,
+          "duration" : 180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '我要下班'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle2]",
+        "uid" : "cb9fd8d1ba807829",
+        "parentUid" : "7bad7378b66c4d74b9d5fd017653edf7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614223871589,
+          "stop" : 1614223873339,
+          "duration" : 1750
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '小e，我要签到'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle4]",
+        "uid" : "6a6e32c9d31bba7",
+        "parentUid" : "7bad7378b66c4d74b9d5fd017653edf7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614223879346,
+          "stop" : 1614223880576,
+          "duration" : 1230
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '要下班了啦'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle3]",
+        "uid" : "3f31a2d51af0444a",
+        "parentUid" : "7bad7378b66c4d74b9d5fd017653edf7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614223879222,
+          "stop" : 1614223879337,
+          "duration" : 115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '要下班'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle6]",
+        "uid" : "9f82e5b75d9d427f",
+        "parentUid" : "7bad7378b66c4d74b9d5fd017653edf7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614223880774,
+          "stop" : 1614223882038,
+          "duration" : 1264
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '我要下班了啦'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle2]",
+        "uid" : "4d152818afc09e52",
+        "parentUid" : "7bad7378b66c4d74b9d5fd017653edf7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614223877972,
+          "stop" : 1614223879212,
+          "duration" : 1240
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '下班了啦'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle1]",
+        "uid" : "3896b929268731fb",
+        "parentUid" : "7bad7378b66c4d74b9d5fd017653edf7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614223877849,
+          "stop" : 1614223877963,
+          "duration" : 114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '下班'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle4]",
+        "uid" : "829878ba5df344ff",
+        "parentUid" : "7bad7378b66c4d74b9d5fd017653edf7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614223874706,
+          "stop" : 1614223875950,
+          "duration" : 1244
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '小e帮我考勤打卡'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle1]",
+        "uid" : "da0759bbca21afc6",
+        "parentUid" : "7bad7378b66c4d74b9d5fd017653edf7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614223870407,
+          "stop" : 1614223871586,
+          "duration" : 1179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '打卡'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle0]",
+        "uid" : "69bafe0228e9b96a",
+        "parentUid" : "7bad7378b66c4d74b9d5fd017653edf7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614223869688,
+          "stop" : 1614223870404,
+          "duration" : 716
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '签到'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle5]",
+        "uid" : "549cea6f27febc3d",
+        "parentUid" : "7bad7378b66c4d74b9d5fd017653edf7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614223875954,
+          "stop" : 1614223877176,
+          "duration" : 1222
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '想考勤'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle0]",
+        "uid" : "65ba0a1c9cdfea0",
+        "parentUid" : "7bad7378b66c4d74b9d5fd017653edf7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614223877181,
+          "stop" : 1614223877793,
+          "duration" : 612
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '签退'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle3]",
+        "uid" : "f79380e995373007",
+        "parentUid" : "7bad7378b66c4d74b9d5fd017653edf7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614223873343,
+          "stop" : 1614223874703,
+          "duration" : 1360
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '打卡考勤'}" ]
+      } ],
+      "uid" : "7bad7378b66c4d74b9d5fd017653edf7"
+    }, {
+      "name" : "17360-MainThread",
+      "children" : [ {
+        "name" : "test_attendance_sign_back[circle5]",
+        "uid" : "26dd59d537c5d07b",
+        "parentUid" : "24439e7754874049f046dd1329281116",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614232576576,
+          "stop" : 1614232576770,
+          "duration" : 194
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '我要下班'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle4]",
+        "uid" : "df560e2c321474d2",
+        "parentUid" : "24439e7754874049f046dd1329281116",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614232570879,
+          "stop" : 1614232572078,
+          "duration" : 1199
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '小e帮我考勤打卡'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle3]",
+        "uid" : "6b68b74a5bf98c30",
+        "parentUid" : "24439e7754874049f046dd1329281116",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614232575226,
+          "stop" : 1614232575322,
+          "duration" : 96
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '要下班'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle0]",
+        "uid" : "80cd50f2321058c6",
+        "parentUid" : "24439e7754874049f046dd1329281116",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614232573322,
+          "stop" : 1614232573849,
+          "duration" : 527
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '签退'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle2]",
+        "uid" : "ac60bab87c7a5d42",
+        "parentUid" : "24439e7754874049f046dd1329281116",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614232568536,
+          "stop" : 1614232569701,
+          "duration" : 1165
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '小e，我要签到'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle2]",
+        "uid" : "cb6da2312b5bb360",
+        "parentUid" : "24439e7754874049f046dd1329281116",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614232573988,
+          "stop" : 1614232575222,
+          "duration" : 1234
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '下班了啦'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle0]",
+        "uid" : "cf2967e4bd7c55cf",
+        "parentUid" : "24439e7754874049f046dd1329281116",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614232566614,
+          "stop" : 1614232567344,
+          "duration" : 730
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '签到'}" ]
+      }, {
+        "name" : "test_attendance_outside_sign_in[circle0]",
+        "uid" : "838f854b5f511251",
+        "parentUid" : "24439e7754874049f046dd1329281116",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614232578021,
+          "stop" : 1614232578546,
+          "duration" : 525
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打外勤卡'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle3]",
+        "uid" : "beaade6701b662b6",
+        "parentUid" : "24439e7754874049f046dd1329281116",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614232569704,
+          "stop" : 1614232570875,
+          "duration" : 1171
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '打卡考勤'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle1]",
+        "uid" : "3fe301d76a5f346",
+        "parentUid" : "24439e7754874049f046dd1329281116",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614232573853,
+          "stop" : 1614232573983,
+          "duration" : 130
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '下班'}" ]
+      }, {
+        "name" : "test_attendance_outside_sign_in[circle1]",
+        "uid" : "f7d417d03035b5c9",
+        "parentUid" : "24439e7754874049f046dd1329281116",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614232578610,
+          "stop" : 1614232579858,
+          "duration" : 1248
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '帮我签个外勤卡'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle6]",
+        "uid" : "e336958c391b7cb5",
+        "parentUid" : "24439e7754874049f046dd1329281116",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614232576775,
+          "stop" : 1614232578016,
+          "duration" : 1241
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '我要下班了啦'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle1]",
+        "uid" : "e2acbe4ce4757b2a",
+        "parentUid" : "24439e7754874049f046dd1329281116",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614232567349,
+          "stop" : 1614232568531,
+          "duration" : 1182
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '打卡'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle5]",
+        "uid" : "8b0f8962fc8248d3",
+        "parentUid" : "24439e7754874049f046dd1329281116",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614232572082,
+          "stop" : 1614232573318,
+          "duration" : 1236
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '想考勤'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle4]",
+        "uid" : "24a215cec9d75a21",
+        "parentUid" : "24439e7754874049f046dd1329281116",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614232575326,
+          "stop" : 1614232576558,
+          "duration" : 1232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '要下班了啦'}" ]
+      } ],
+      "uid" : "24439e7754874049f046dd1329281116"
+    }, {
+      "name" : "22224-MainThread",
+      "children" : [ {
+        "name" : "test_attendance_outside_sign_in[circle0]",
+        "uid" : "7ad4ae7549148df4",
+        "parentUid" : "8fcb909ad5b2cd9aaec3cad4cdd276e8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614231573422,
+          "stop" : 1614231573924,
+          "duration" : 502
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打外勤卡'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle1]",
+        "uid" : "68a6e5b878e51d7f",
+        "parentUid" : "8fcb909ad5b2cd9aaec3cad4cdd276e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231569321,
+          "stop" : 1614231569442,
+          "duration" : 121
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '下班'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle2]",
+        "uid" : "852978c408c61204",
+        "parentUid" : "8fcb909ad5b2cd9aaec3cad4cdd276e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231563965,
+          "stop" : 1614231565151,
+          "duration" : 1186
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '小e，我要签到'}" ]
+      }, {
+        "name" : "test_attendance_outside_sign_in[circle1]",
+        "uid" : "7dd32b7d28a1e8fc",
+        "parentUid" : "8fcb909ad5b2cd9aaec3cad4cdd276e8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614231573982,
+          "stop" : 1614231575245,
+          "duration" : 1263
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '帮我签个外勤卡'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle4]",
+        "uid" : "f913c2bf90d823ce",
+        "parentUid" : "8fcb909ad5b2cd9aaec3cad4cdd276e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231566328,
+          "stop" : 1614231567525,
+          "duration" : 1197
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '小e帮我考勤打卡'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle0]",
+        "uid" : "d05df2d7f67f768e",
+        "parentUid" : "8fcb909ad5b2cd9aaec3cad4cdd276e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231561499,
+          "stop" : 1614231562783,
+          "duration" : 1284
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '签到'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle0]",
+        "uid" : "cfb3ebcf77bdfd59",
+        "parentUid" : "8fcb909ad5b2cd9aaec3cad4cdd276e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231568765,
+          "stop" : 1614231569317,
+          "duration" : 552
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '签退'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle3]",
+        "uid" : "eb81e52ae66f3207",
+        "parentUid" : "8fcb909ad5b2cd9aaec3cad4cdd276e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231570678,
+          "stop" : 1614231570789,
+          "duration" : 111
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '要下班'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle4]",
+        "uid" : "1f5009b5729c298f",
+        "parentUid" : "8fcb909ad5b2cd9aaec3cad4cdd276e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231570793,
+          "stop" : 1614231572052,
+          "duration" : 1259
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '要下班了啦'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle5]",
+        "uid" : "eb0ef5a114d128ad",
+        "parentUid" : "8fcb909ad5b2cd9aaec3cad4cdd276e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231567529,
+          "stop" : 1614231568761,
+          "duration" : 1232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '想考勤'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle1]",
+        "uid" : "e17409fbfdcd360c",
+        "parentUid" : "8fcb909ad5b2cd9aaec3cad4cdd276e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231562788,
+          "stop" : 1614231563960,
+          "duration" : 1172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '打卡'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle6]",
+        "uid" : "f06c1913d35740f3",
+        "parentUid" : "8fcb909ad5b2cd9aaec3cad4cdd276e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231572184,
+          "stop" : 1614231573418,
+          "duration" : 1234
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '我要下班了啦'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle2]",
+        "uid" : "add01ef1d0413a62",
+        "parentUid" : "8fcb909ad5b2cd9aaec3cad4cdd276e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231569447,
+          "stop" : 1614231570674,
+          "duration" : 1227
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '下班了啦'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle3]",
+        "uid" : "362aca0a5b8cbf3c",
+        "parentUid" : "8fcb909ad5b2cd9aaec3cad4cdd276e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231565155,
+          "stop" : 1614231566323,
+          "duration" : 1168
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '打卡考勤'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle5]",
+        "uid" : "f46c668bb9841862",
+        "parentUid" : "8fcb909ad5b2cd9aaec3cad4cdd276e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231572056,
+          "stop" : 1614231572180,
+          "duration" : 124
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '我要下班'}" ]
+      } ],
+      "uid" : "8fcb909ad5b2cd9aaec3cad4cdd276e8"
+    }, {
+      "name" : "26296-MainThread",
+      "children" : [ {
+        "name" : "test_attendance_sign_back[circle6]",
+        "uid" : "c16356ed29927eba",
+        "parentUid" : "06b9742074a58de4b680bcf742fd9515",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614223937192,
+          "stop" : 1614223938425,
+          "duration" : 1233
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '我要下班了啦'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle3]",
+        "uid" : "221b947a7f59a4b1",
+        "parentUid" : "06b9742074a58de4b680bcf742fd9515",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614223929378,
+          "stop" : 1614223930566,
+          "duration" : 1188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '打卡考勤'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle5]",
+        "uid" : "3fa5f936303cb502",
+        "parentUid" : "06b9742074a58de4b680bcf742fd9515",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614223931751,
+          "stop" : 1614223933744,
+          "duration" : 1993
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '想考勤'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle4]",
+        "uid" : "5ffd8cf0769aa596",
+        "parentUid" : "06b9742074a58de4b680bcf742fd9515",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614223930570,
+          "stop" : 1614223931747,
+          "duration" : 1177
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '小e帮我考勤打卡'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle1]",
+        "uid" : "6946e5869dbd7ae9",
+        "parentUid" : "06b9742074a58de4b680bcf742fd9515",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614223934343,
+          "stop" : 1614223934464,
+          "duration" : 121
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '下班'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle3]",
+        "uid" : "3d29eb6098c97fa1",
+        "parentUid" : "06b9742074a58de4b680bcf742fd9515",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614223935716,
+          "stop" : 1614223935811,
+          "duration" : 95
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '要下班'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle4]",
+        "uid" : "a6f9a8f2646d0ec2",
+        "parentUid" : "06b9742074a58de4b680bcf742fd9515",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614223935820,
+          "stop" : 1614223937059,
+          "duration" : 1239
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '要下班了啦'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle0]",
+        "uid" : "d1fe4ad9e2594878",
+        "parentUid" : "06b9742074a58de4b680bcf742fd9515",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614223926303,
+          "stop" : 1614223927033,
+          "duration" : 730
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '签到'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle2]",
+        "uid" : "b54ec1fe7037246",
+        "parentUid" : "06b9742074a58de4b680bcf742fd9515",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614223928202,
+          "stop" : 1614223929374,
+          "duration" : 1172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '小e，我要签到'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle0]",
+        "uid" : "6f1d0a3ce57cb0c8",
+        "parentUid" : "06b9742074a58de4b680bcf742fd9515",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614223933749,
+          "stop" : 1614223934287,
+          "duration" : 538
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '签退'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle5]",
+        "uid" : "fd529057609340e8",
+        "parentUid" : "06b9742074a58de4b680bcf742fd9515",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614223937068,
+          "stop" : 1614223937183,
+          "duration" : 115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '我要下班'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle2]",
+        "uid" : "d370283e25382a91",
+        "parentUid" : "06b9742074a58de4b680bcf742fd9515",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614223934473,
+          "stop" : 1614223935707,
+          "duration" : 1234
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '下班了啦'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle1]",
+        "uid" : "74ebc39ebd0504e9",
+        "parentUid" : "06b9742074a58de4b680bcf742fd9515",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614223927037,
+          "stop" : 1614223928198,
+          "duration" : 1161
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '打卡'}" ]
+      } ],
+      "uid" : "06b9742074a58de4b680bcf742fd9515"
+    }, {
+      "name" : "3020-MainThread",
+      "children" : [ {
+        "name" : "test_attendance_sign_in[circle1]",
+        "uid" : "6b7f7be3c10a6962",
+        "parentUid" : "dee1e76365c246573c829a49112d2b4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614235717544,
+          "stop" : 1614235718720,
+          "duration" : 1176
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '打卡'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle1]",
+        "uid" : "e0b2a14742ceedf6",
+        "parentUid" : "dee1e76365c246573c829a49112d2b4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614235724060,
+          "stop" : 1614235724187,
+          "duration" : 127
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '下班'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle2]",
+        "uid" : "955b67e5dcd07688",
+        "parentUid" : "dee1e76365c246573c829a49112d2b4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614235718724,
+          "stop" : 1614235719906,
+          "duration" : 1182
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '小e，我要签到'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle3]",
+        "uid" : "2a9c04d329011d5f",
+        "parentUid" : "dee1e76365c246573c829a49112d2b4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614235725435,
+          "stop" : 1614235725538,
+          "duration" : 103
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '要下班'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle4]",
+        "uid" : "859afa04aaaa7895",
+        "parentUid" : "dee1e76365c246573c829a49112d2b4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614235725542,
+          "stop" : 1614235726777,
+          "duration" : 1235
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '要下班了啦'}" ]
+      }, {
+        "name" : "test_attendance_outside_sign_back[circle0]",
+        "uid" : "2e6216a47c1ba5fd",
+        "parentUid" : "dee1e76365c246573c829a49112d2b4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614235729967,
+          "stop" : 1614235730729,
+          "duration" : 762
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '外勤签退'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle5]",
+        "uid" : "b3f975c6bef0e100",
+        "parentUid" : "dee1e76365c246573c829a49112d2b4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614235726782,
+          "stop" : 1614235726901,
+          "duration" : 119
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '我要下班'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle0]",
+        "uid" : "80491bb8f484b25e",
+        "parentUid" : "dee1e76365c246573c829a49112d2b4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614235716790,
+          "stop" : 1614235717539,
+          "duration" : 749
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '签到'}" ]
+      }, {
+        "name" : "test_attendance_outside_sign_in[circle1]",
+        "uid" : "3a39e119fa02c2e1",
+        "parentUid" : "dee1e76365c246573c829a49112d2b4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614235728728,
+          "stop" : 1614235729963,
+          "duration" : 1235
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '帮我签个外勤卡'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle3]",
+        "uid" : "5c04e6e1de807a29",
+        "parentUid" : "dee1e76365c246573c829a49112d2b4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614235719910,
+          "stop" : 1614235721102,
+          "duration" : 1192
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '打卡考勤'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle5]",
+        "uid" : "14a9f81dd0525fda",
+        "parentUid" : "dee1e76365c246573c829a49112d2b4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614235722317,
+          "stop" : 1614235723542,
+          "duration" : 1225
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '想考勤'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle0]",
+        "uid" : "ddf4ef42778d4f69",
+        "parentUid" : "dee1e76365c246573c829a49112d2b4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614235723547,
+          "stop" : 1614235724057,
+          "duration" : 510
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '签退'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle6]",
+        "uid" : "f533dcf5ba0492b8",
+        "parentUid" : "dee1e76365c246573c829a49112d2b4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614235726905,
+          "stop" : 1614235728196,
+          "duration" : 1291
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '我要下班了啦'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle4]",
+        "uid" : "6cd8abe3ad8e35cd",
+        "parentUid" : "dee1e76365c246573c829a49112d2b4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614235721106,
+          "stop" : 1614235722312,
+          "duration" : 1206
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '小e帮我考勤打卡'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle2]",
+        "uid" : "4108245d67d0c93a",
+        "parentUid" : "dee1e76365c246573c829a49112d2b4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614235724191,
+          "stop" : 1614235725430,
+          "duration" : 1239
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '下班了啦'}" ]
+      }, {
+        "name" : "test_attendance_outside_sign_in[circle0]",
+        "uid" : "5ec8e1e531251b22",
+        "parentUid" : "dee1e76365c246573c829a49112d2b4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614235728200,
+          "stop" : 1614235728724,
+          "duration" : 524
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打外勤卡'}" ]
+      } ],
+      "uid" : "dee1e76365c246573c829a49112d2b4b"
+    }, {
+      "name" : "12740-MainThread",
+      "children" : [ {
+        "name" : "test_attendance_sign_in[circle3]",
+        "uid" : "87d18d428abf82b8",
+        "parentUid" : "366ff355248b1073918887b23ae13e35",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231455306,
+          "stop" : 1614231456469,
+          "duration" : 1163
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '打卡考勤'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle2]",
+        "uid" : "2442212bde5e736c",
+        "parentUid" : "366ff355248b1073918887b23ae13e35",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231454102,
+          "stop" : 1614231455302,
+          "duration" : 1200
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '小e，我要签到'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle1]",
+        "uid" : "8309e9fb27e9f21a",
+        "parentUid" : "366ff355248b1073918887b23ae13e35",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231452911,
+          "stop" : 1614231454098,
+          "duration" : 1187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '打卡'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle3]",
+        "uid" : "31c60ac7559d1e73",
+        "parentUid" : "366ff355248b1073918887b23ae13e35",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231460916,
+          "stop" : 1614231461029,
+          "duration" : 113
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '要下班'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle2]",
+        "uid" : "e514dca462e37710",
+        "parentUid" : "366ff355248b1073918887b23ae13e35",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231459673,
+          "stop" : 1614231460912,
+          "duration" : 1239
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '下班了啦'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle6]",
+        "uid" : "779c6990caf77dc",
+        "parentUid" : "366ff355248b1073918887b23ae13e35",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231462371,
+          "stop" : 1614231463608,
+          "duration" : 1237
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '我要下班了啦'}" ]
+      }, {
+        "name" : "test_attendance_outside_sign_in[circle1]",
+        "uid" : "fd8f884de9bc588c",
+        "parentUid" : "366ff355248b1073918887b23ae13e35",
+        "status" : "broken",
+        "time" : {
+          "start" : 1614231463665,
+          "stop" : 1614231463665,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle0]",
+        "uid" : "d90eaa3b639156a8",
+        "parentUid" : "366ff355248b1073918887b23ae13e35",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231452077,
+          "stop" : 1614231452901,
+          "duration" : 824
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '签到'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle5]",
+        "uid" : "21369062d905c1ed",
+        "parentUid" : "366ff355248b1073918887b23ae13e35",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231457773,
+          "stop" : 1614231458990,
+          "duration" : 1217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '想考勤'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle0]",
+        "uid" : "c82d8a40df1f7069",
+        "parentUid" : "366ff355248b1073918887b23ae13e35",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231458994,
+          "stop" : 1614231459548,
+          "duration" : 554
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '签退'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle4]",
+        "uid" : "12ae2e767ee5870f",
+        "parentUid" : "366ff355248b1073918887b23ae13e35",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231461033,
+          "stop" : 1614231462266,
+          "duration" : 1233
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '要下班了啦'}" ]
+      }, {
+        "name" : "test_attendance_outside_sign_in[circle0]",
+        "uid" : "ea69b9aed4785bc5",
+        "parentUid" : "366ff355248b1073918887b23ae13e35",
+        "status" : "broken",
+        "time" : {
+          "start" : 1614231463611,
+          "stop" : 1614231463611,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle1]",
+        "uid" : "110583a08519c0aa",
+        "parentUid" : "366ff355248b1073918887b23ae13e35",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231459552,
+          "stop" : 1614231459669,
+          "duration" : 117
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '下班'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle4]",
+        "uid" : "b7dfdf2061a3b098",
+        "parentUid" : "366ff355248b1073918887b23ae13e35",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231456473,
+          "stop" : 1614231457769,
+          "duration" : 1296
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '小e帮我考勤打卡'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle5]",
+        "uid" : "fdd438e22720e08f",
+        "parentUid" : "366ff355248b1073918887b23ae13e35",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231462270,
+          "stop" : 1614231462367,
+          "duration" : 97
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '我要下班'}" ]
+      } ],
+      "uid" : "366ff355248b1073918887b23ae13e35"
+    }, {
+      "name" : "16312-MainThread",
+      "children" : [ {
+        "name" : "test_attendance_sign_in[circle4]",
+        "uid" : "69e721a1aa1bbb64",
+        "parentUid" : "ad1e7e57b456a97ca5540b198f464254",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614234370720,
+          "stop" : 1614234371921,
+          "duration" : 1201
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '小e帮我考勤打卡'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle1]",
+        "uid" : "8d6b23a5c6738d5d",
+        "parentUid" : "ad1e7e57b456a97ca5540b198f464254",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614234367098,
+          "stop" : 1614234368300,
+          "duration" : 1202
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '打卡'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle6]",
+        "uid" : "4b4552e7879efea4",
+        "parentUid" : "ad1e7e57b456a97ca5540b198f464254",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614234376592,
+          "stop" : 1614234377849,
+          "duration" : 1257
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '我要下班了啦'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle2]",
+        "uid" : "e4c7647f6461066",
+        "parentUid" : "ad1e7e57b456a97ca5540b198f464254",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614234373843,
+          "stop" : 1614234375089,
+          "duration" : 1246
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '下班了啦'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle5]",
+        "uid" : "6c661f94c7eeba95",
+        "parentUid" : "ad1e7e57b456a97ca5540b198f464254",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614234371924,
+          "stop" : 1614234373152,
+          "duration" : 1228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '想考勤'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle0]",
+        "uid" : "d4c0d1b03bdc14f6",
+        "parentUid" : "ad1e7e57b456a97ca5540b198f464254",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614234373155,
+          "stop" : 1614234373687,
+          "duration" : 532
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '签退'}" ]
+      }, {
+        "name" : "test_attendance_outside_sign_back[circle0]",
+        "uid" : "753ca0d8cca3ed46",
+        "parentUid" : "ad1e7e57b456a97ca5540b198f464254",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614234379721,
+          "stop" : 1614234380466,
+          "duration" : 745
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '外勤签退'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle2]",
+        "uid" : "7431f40dd4b57787",
+        "parentUid" : "ad1e7e57b456a97ca5540b198f464254",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614234368304,
+          "stop" : 1614234369502,
+          "duration" : 1198
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '小e，我要签到'}" ]
+      }, {
+        "name" : "test_attendance_outside_sign_in[circle1]",
+        "uid" : "327427897efcb39a",
+        "parentUid" : "ad1e7e57b456a97ca5540b198f464254",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614234378460,
+          "stop" : 1614234379709,
+          "duration" : 1249
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '帮我签个外勤卡'}" ]
+      }, {
+        "name" : "test_attendance_outside_sign_in[circle0]",
+        "uid" : "31029ab4ff12c067",
+        "parentUid" : "ad1e7e57b456a97ca5540b198f464254",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614234377853,
+          "stop" : 1614234378372,
+          "duration" : 519
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打外勤卡'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle3]",
+        "uid" : "5297b4bcea3b1541",
+        "parentUid" : "ad1e7e57b456a97ca5540b198f464254",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614234375093,
+          "stop" : 1614234375216,
+          "duration" : 123
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '要下班'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle0]",
+        "uid" : "71b5e30493ade87c",
+        "parentUid" : "ad1e7e57b456a97ca5540b198f464254",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614234366332,
+          "stop" : 1614234367094,
+          "duration" : 762
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '签到'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle4]",
+        "uid" : "cfd96db267a041d6",
+        "parentUid" : "ad1e7e57b456a97ca5540b198f464254",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614234375220,
+          "stop" : 1614234376467,
+          "duration" : 1247
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '要下班了啦'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle1]",
+        "uid" : "d519035a49634f4a",
+        "parentUid" : "ad1e7e57b456a97ca5540b198f464254",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614234373692,
+          "stop" : 1614234373839,
+          "duration" : 147
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '下班'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle5]",
+        "uid" : "4df9a01b284e2b62",
+        "parentUid" : "ad1e7e57b456a97ca5540b198f464254",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614234376470,
+          "stop" : 1614234376588,
+          "duration" : 118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '我要下班'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle3]",
+        "uid" : "8185637d9112ce9a",
+        "parentUid" : "ad1e7e57b456a97ca5540b198f464254",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614234369506,
+          "stop" : 1614234370716,
+          "duration" : 1210
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': '11634', 'text': '打卡考勤'}" ]
+      } ],
+      "uid" : "ad1e7e57b456a97ca5540b198f464254"
+    }, {
+      "name" : "26672-MainThread",
+      "children" : [ {
+        "name" : "test_clock_rules[circle4]",
+        "uid" : "46540c722e5766fb",
+        "parentUid" : "1523d46d1dea3bd44ef581e5264fa940",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614241918793,
+          "stop" : 1614241919256,
+          "duration" : 463
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '签到有啥规定'}" ]
+      }, {
+        "name" : "test_clock_rules[circle0]",
+        "uid" : "9063ada3d828780a",
+        "parentUid" : "1523d46d1dea3bd44ef581e5264fa940",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614241913857,
+          "stop" : 1614241915266,
+          "duration" : 1409
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '关于打卡有啥规定'}" ]
+      }, {
+        "name" : "test_clock_rules[circle5]",
+        "uid" : "6e6c2027db933d05",
+        "parentUid" : "1523d46d1dea3bd44ef581e5264fa940",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614241919260,
+          "stop" : 1614241920437,
+          "duration" : 1177
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打卡规则是啥'}" ]
+      }, {
+        "name" : "test_clock_rules[circle1]",
+        "uid" : "22c91a308033de1c",
+        "parentUid" : "1523d46d1dea3bd44ef581e5264fa940",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614241915269,
+          "stop" : 1614241916441,
+          "duration" : 1172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '查询打卡规定'}" ]
+      }, {
+        "name" : "test_clock_rules[circle2]",
+        "uid" : "e86b53d969e77899",
+        "parentUid" : "1523d46d1dea3bd44ef581e5264fa940",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614241916445,
+          "stop" : 1614241917616,
+          "duration" : 1171
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打卡制度查询'}" ]
+      }, {
+        "name" : "test_clock_rules[circle3]",
+        "uid" : "ed7fd100aa5b0f3e",
+        "parentUid" : "1523d46d1dea3bd44ef581e5264fa940",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614241917620,
+          "stop" : 1614241918789,
+          "duration" : 1169
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '考勤打卡制度查询'}" ]
+      } ],
+      "uid" : "1523d46d1dea3bd44ef581e5264fa940"
+    }, {
+      "name" : "21452-MainThread",
+      "children" : [ {
+        "name" : "test_attendance_sign_in[circle0]",
+        "uid" : "7b2c03eba4368ad2",
+        "parentUid" : "35e193982f5b9951151ef28bb3d19399",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614234053427,
+          "stop" : 1614234054254,
+          "duration" : 827
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '签到', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle5]",
+        "uid" : "ea5b207a381c5c4b",
+        "parentUid" : "35e193982f5b9951151ef28bb3d19399",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614234059332,
+          "stop" : 1614234060923,
+          "duration" : 1591
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '想考勤', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_outside_sign_in[circle0]",
+        "uid" : "f8110233dc607cb4",
+        "parentUid" : "35e193982f5b9951151ef28bb3d19399",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614234066245,
+          "stop" : 1614234066977,
+          "duration" : 732
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打外勤卡'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle1]",
+        "uid" : "984e5527b251fb43",
+        "parentUid" : "35e193982f5b9951151ef28bb3d19399",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614234054258,
+          "stop" : 1614234055542,
+          "duration" : 1284
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打卡', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle2]",
+        "uid" : "e0b649d958202511",
+        "parentUid" : "35e193982f5b9951151ef28bb3d19399",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614234061648,
+          "stop" : 1614234063031,
+          "duration" : 1383
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '下班了啦', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_outside_sign_in[circle1]",
+        "uid" : "19ac1d88d48973b7",
+        "parentUid" : "35e193982f5b9951151ef28bb3d19399",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614234067040,
+          "stop" : 1614234068478,
+          "duration" : 1438
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '帮我签个外勤卡'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle0]",
+        "uid" : "32c06ab6c70ef9a5",
+        "parentUid" : "35e193982f5b9951151ef28bb3d19399",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614234060927,
+          "stop" : 1614234061508,
+          "duration" : 581
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '签退', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle4]",
+        "uid" : "99fc7c650d102c98",
+        "parentUid" : "35e193982f5b9951151ef28bb3d19399",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614234063209,
+          "stop" : 1614234064693,
+          "duration" : 1484
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '要下班了啦', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle6]",
+        "uid" : "c21fd0be7dd46b4e",
+        "parentUid" : "35e193982f5b9951151ef28bb3d19399",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614234064844,
+          "stop" : 1614234066239,
+          "duration" : 1395
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '我要下班了啦', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle1]",
+        "uid" : "4dc6815b3dc21d96",
+        "parentUid" : "35e193982f5b9951151ef28bb3d19399",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614234061512,
+          "stop" : 1614234061643,
+          "duration" : 131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '下班', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle5]",
+        "uid" : "285e9a14bc637f38",
+        "parentUid" : "35e193982f5b9951151ef28bb3d19399",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614234064699,
+          "stop" : 1614234064840,
+          "duration" : 141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '我要下班', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_outside_sign_back[circle0]",
+        "uid" : "b8e302d945e766bc",
+        "parentUid" : "35e193982f5b9951151ef28bb3d19399",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614234068489,
+          "stop" : 1614234069364,
+          "duration" : 875
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '外勤签退'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle2]",
+        "uid" : "c94c9bfe95387827",
+        "parentUid" : "35e193982f5b9951151ef28bb3d19399",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614234055546,
+          "stop" : 1614234056768,
+          "duration" : 1222
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '小e，我要签到', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle3]",
+        "uid" : "98da8d1f41041bd7",
+        "parentUid" : "35e193982f5b9951151ef28bb3d19399",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614234056774,
+          "stop" : 1614234058013,
+          "duration" : 1239
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打卡考勤', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle3]",
+        "uid" : "863a8483867142d7",
+        "parentUid" : "35e193982f5b9951151ef28bb3d19399",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614234063035,
+          "stop" : 1614234063204,
+          "duration" : 169
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '要下班', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle4]",
+        "uid" : "f91d009a9e1832e",
+        "parentUid" : "35e193982f5b9951151ef28bb3d19399",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614234058018,
+          "stop" : 1614234059328,
+          "duration" : 1310
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '小e帮我考勤打卡', 'creater': '11634'}" ]
+      } ],
+      "uid" : "35e193982f5b9951151ef28bb3d19399"
+    }, {
+      "name" : "25756-MainThread",
+      "children" : [ {
+        "name" : "test_attendance_outside_sign_in[circle0]",
+        "uid" : "30be47271f32f7dd",
+        "parentUid" : "217468dae34959a44f2f67a312820211",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614232033325,
+          "stop" : 1614232033822,
+          "duration" : 497
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打外勤卡'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle5]",
+        "uid" : "51c609e69c00c86",
+        "parentUid" : "217468dae34959a44f2f67a312820211",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614232027432,
+          "stop" : 1614232028665,
+          "duration" : 1233
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '想考勤', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle2]",
+        "uid" : "89b94e5c5517d8d0",
+        "parentUid" : "217468dae34959a44f2f67a312820211",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614232029321,
+          "stop" : 1614232030567,
+          "duration" : 1246
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '下班了啦', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle5]",
+        "uid" : "740a8e66efdf68a0",
+        "parentUid" : "217468dae34959a44f2f67a312820211",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614232031962,
+          "stop" : 1614232032079,
+          "duration" : 117
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '我要下班', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle0]",
+        "uid" : "d65a54b78fb39f4e",
+        "parentUid" : "217468dae34959a44f2f67a312820211",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614232021870,
+          "stop" : 1614232022592,
+          "duration" : 722
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '签到', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle4]",
+        "uid" : "cc07fdd5442850e4",
+        "parentUid" : "217468dae34959a44f2f67a312820211",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614232030709,
+          "stop" : 1614232031958,
+          "duration" : 1249
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '要下班了啦', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle6]",
+        "uid" : "80762951db1c0466",
+        "parentUid" : "217468dae34959a44f2f67a312820211",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614232032083,
+          "stop" : 1614232033320,
+          "duration" : 1237
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '我要下班了啦', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle4]",
+        "uid" : "499ccf580045cae9",
+        "parentUid" : "217468dae34959a44f2f67a312820211",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614232026208,
+          "stop" : 1614232027428,
+          "duration" : 1220
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '小e帮我考勤打卡', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle0]",
+        "uid" : "93f39689fc47d830",
+        "parentUid" : "217468dae34959a44f2f67a312820211",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614232028671,
+          "stop" : 1614232029205,
+          "duration" : 534
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '签退', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle3]",
+        "uid" : "7912f836ee49c2e5",
+        "parentUid" : "217468dae34959a44f2f67a312820211",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614232024977,
+          "stop" : 1614232026204,
+          "duration" : 1227
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打卡考勤', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_outside_sign_in[circle1]",
+        "uid" : "fac5e8c72bd624e9",
+        "parentUid" : "217468dae34959a44f2f67a312820211",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614232033880,
+          "stop" : 1614232035124,
+          "duration" : 1244
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '帮我签个外勤卡'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle3]",
+        "uid" : "482c2aa62c041b5e",
+        "parentUid" : "217468dae34959a44f2f67a312820211",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614232030571,
+          "stop" : 1614232030705,
+          "duration" : 134
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '要下班', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle1]",
+        "uid" : "cd029ee69884de3e",
+        "parentUid" : "217468dae34959a44f2f67a312820211",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614232029209,
+          "stop" : 1614232029316,
+          "duration" : 107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '下班', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle1]",
+        "uid" : "e146cadd676cd74c",
+        "parentUid" : "217468dae34959a44f2f67a312820211",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614232022597,
+          "stop" : 1614232023784,
+          "duration" : 1187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打卡', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle2]",
+        "uid" : "31b083416786fc85",
+        "parentUid" : "217468dae34959a44f2f67a312820211",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614232023788,
+          "stop" : 1614232024973,
+          "duration" : 1185
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '小e，我要签到', 'creater': '11634'}" ]
+      } ],
+      "uid" : "217468dae34959a44f2f67a312820211"
+    }, {
+      "name" : "9864-MainThread",
+      "children" : [ {
+        "name" : "test_attendance_sign_back[circle6]",
+        "uid" : "9e1bdea56a87da80",
+        "parentUid" : "f53164ea777ff2b7fe63ffb36dd3b764",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614233989027,
+          "stop" : 1614233990248,
+          "duration" : 1221
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '我要下班了啦', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle0]",
+        "uid" : "26e40613f448258a",
+        "parentUid" : "f53164ea777ff2b7fe63ffb36dd3b764",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614233978899,
+          "stop" : 1614233979617,
+          "duration" : 718
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '签到', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle4]",
+        "uid" : "5694a1296d9814e2",
+        "parentUid" : "f53164ea777ff2b7fe63ffb36dd3b764",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614233983191,
+          "stop" : 1614233984378,
+          "duration" : 1187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '小e帮我考勤打卡', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle1]",
+        "uid" : "c315d9aeca4e92e4",
+        "parentUid" : "f53164ea777ff2b7fe63ffb36dd3b764",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614233979622,
+          "stop" : 1614233980808,
+          "duration" : 1186
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打卡', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle3]",
+        "uid" : "a14d05d87077ac65",
+        "parentUid" : "f53164ea777ff2b7fe63ffb36dd3b764",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614233987520,
+          "stop" : 1614233987642,
+          "duration" : 122
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '要下班', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle1]",
+        "uid" : "df2c6367763fdfd8",
+        "parentUid" : "f53164ea777ff2b7fe63ffb36dd3b764",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614233986150,
+          "stop" : 1614233986250,
+          "duration" : 100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '下班', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle2]",
+        "uid" : "408b6424098190dd",
+        "parentUid" : "f53164ea777ff2b7fe63ffb36dd3b764",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614233986257,
+          "stop" : 1614233987516,
+          "duration" : 1259
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '下班了啦', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle4]",
+        "uid" : "5efd2dbf5cb9b423",
+        "parentUid" : "f53164ea777ff2b7fe63ffb36dd3b764",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614233987647,
+          "stop" : 1614233988896,
+          "duration" : 1249
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '要下班了啦', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_outside_sign_in[circle0]",
+        "uid" : "dd4a3ea7aa5a8cd6",
+        "parentUid" : "f53164ea777ff2b7fe63ffb36dd3b764",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614233990252,
+          "stop" : 1614233990755,
+          "duration" : 503
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打外勤卡'}" ]
+      }, {
+        "name" : "test_attendance_outside_sign_back[circle0]",
+        "uid" : "966fa9a0194cebb9",
+        "parentUid" : "f53164ea777ff2b7fe63ffb36dd3b764",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614233992064,
+          "stop" : 1614233992809,
+          "duration" : 745
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '外勤签退'}" ]
+      }, {
+        "name" : "test_attendance_outside_sign_in[circle1]",
+        "uid" : "ae5bf982ac0be859",
+        "parentUid" : "f53164ea777ff2b7fe63ffb36dd3b764",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614233990811,
+          "stop" : 1614233992055,
+          "duration" : 1244
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '帮我签个外勤卡'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle5]",
+        "uid" : "97b9b73045f3bef8",
+        "parentUid" : "f53164ea777ff2b7fe63ffb36dd3b764",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614233988905,
+          "stop" : 1614233989023,
+          "duration" : 118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '我要下班', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle5]",
+        "uid" : "667af75ff1bc7a60",
+        "parentUid" : "f53164ea777ff2b7fe63ffb36dd3b764",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614233984383,
+          "stop" : 1614233985614,
+          "duration" : 1231
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '想考勤', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle3]",
+        "uid" : "d3d0cd4f5955320b",
+        "parentUid" : "f53164ea777ff2b7fe63ffb36dd3b764",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614233981992,
+          "stop" : 1614233983186,
+          "duration" : 1194
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打卡考勤', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle2]",
+        "uid" : "a138d09ba831e919",
+        "parentUid" : "f53164ea777ff2b7fe63ffb36dd3b764",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614233980812,
+          "stop" : 1614233981987,
+          "duration" : 1175
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '小e，我要签到', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle0]",
+        "uid" : "59a7ba1db41a7a75",
+        "parentUid" : "f53164ea777ff2b7fe63ffb36dd3b764",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614233985618,
+          "stop" : 1614233986145,
+          "duration" : 527
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '签退', 'creater': '11634'}" ]
+      } ],
+      "uid" : "f53164ea777ff2b7fe63ffb36dd3b764"
+    }, {
+      "name" : "23604-MainThread",
+      "children" : [ {
+        "name" : "test_attendance_sign_in[circle5]",
+        "uid" : "3d689d05419fc689",
+        "parentUid" : "8c86c305586d96afb8aea6a54af70d9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614220329173,
+          "stop" : 1614220330401,
+          "duration" : 1228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '想考勤', 'creater': 11634}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle2]",
+        "uid" : "e547b9ab1ade59c7",
+        "parentUid" : "8c86c305586d96afb8aea6a54af70d9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614220325649,
+          "stop" : 1614220326837,
+          "duration" : 1188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '小e，我要签到', 'creater': 11634}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle0]",
+        "uid" : "7f2d04fd9a9a7e3a",
+        "parentUid" : "8c86c305586d96afb8aea6a54af70d9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614220323737,
+          "stop" : 1614220324463,
+          "duration" : 726
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '签到', 'creater': 11634}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle4]",
+        "uid" : "9c03b90d6ada121a",
+        "parentUid" : "8c86c305586d96afb8aea6a54af70d9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614220328006,
+          "stop" : 1614220329168,
+          "duration" : 1162
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '小e帮我考勤打卡', 'creater': 11634}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle3]",
+        "uid" : "d8edc5c16ecdfbdf",
+        "parentUid" : "8c86c305586d96afb8aea6a54af70d9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614220326841,
+          "stop" : 1614220328001,
+          "duration" : 1160
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打卡考勤', 'creater': 11634}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle1]",
+        "uid" : "4b97205e2c82aa04",
+        "parentUid" : "8c86c305586d96afb8aea6a54af70d9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614220324467,
+          "stop" : 1614220325645,
+          "duration" : 1178
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打卡', 'creater': 11634}" ]
+      } ],
+      "uid" : "8c86c305586d96afb8aea6a54af70d9c"
+    }, {
+      "name" : "26172-MainThread",
+      "children" : [ {
+        "name" : "test_attendance_sign_back[circle6]",
+        "uid" : "e2ec1455208edc3c",
+        "parentUid" : "d35c7a52598935f7cc96e2b148e846bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231151973,
+          "stop" : 1614231153218,
+          "duration" : 1245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '我要下班了啦', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle1]",
+        "uid" : "4d9dd34a0b3af8cc",
+        "parentUid" : "d35c7a52598935f7cc96e2b148e846bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231142676,
+          "stop" : 1614231143850,
+          "duration" : 1174
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打卡', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle1]",
+        "uid" : "5c91db6c2a08090b",
+        "parentUid" : "d35c7a52598935f7cc96e2b148e846bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231149155,
+          "stop" : 1614231149269,
+          "duration" : 114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '下班', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle2]",
+        "uid" : "a5818d11fe5e3697",
+        "parentUid" : "d35c7a52598935f7cc96e2b148e846bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231149274,
+          "stop" : 1614231150515,
+          "duration" : 1241
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '下班了啦', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle2]",
+        "uid" : "cc9af202ffb5f377",
+        "parentUid" : "d35c7a52598935f7cc96e2b148e846bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231143853,
+          "stop" : 1614231145019,
+          "duration" : 1166
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '小e，我要签到', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle4]",
+        "uid" : "e9f57f12a4c75116",
+        "parentUid" : "d35c7a52598935f7cc96e2b148e846bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231150644,
+          "stop" : 1614231151869,
+          "duration" : 1225
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '要下班了啦', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle0]",
+        "uid" : "f542d61b4f1c17b",
+        "parentUid" : "d35c7a52598935f7cc96e2b148e846bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231148633,
+          "stop" : 1614231149150,
+          "duration" : 517
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '签退', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle5]",
+        "uid" : "6ced7fb463742613",
+        "parentUid" : "d35c7a52598935f7cc96e2b148e846bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231147378,
+          "stop" : 1614231148629,
+          "duration" : 1251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '想考勤', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle5]",
+        "uid" : "ae6209a46a765d49",
+        "parentUid" : "d35c7a52598935f7cc96e2b148e846bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231151873,
+          "stop" : 1614231151969,
+          "duration" : 96
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '我要下班', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle4]",
+        "uid" : "303dacb43d31ec12",
+        "parentUid" : "d35c7a52598935f7cc96e2b148e846bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231146192,
+          "stop" : 1614231147374,
+          "duration" : 1182
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '小e帮我考勤打卡', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle0]",
+        "uid" : "edf9d23f17011ee8",
+        "parentUid" : "d35c7a52598935f7cc96e2b148e846bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231141966,
+          "stop" : 1614231142673,
+          "duration" : 707
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '签到', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle3]",
+        "uid" : "c35357f2b6d5ed88",
+        "parentUid" : "d35c7a52598935f7cc96e2b148e846bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231150519,
+          "stop" : 1614231150640,
+          "duration" : 121
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '要下班', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle3]",
+        "uid" : "10bfc3d38c6c7f95",
+        "parentUid" : "d35c7a52598935f7cc96e2b148e846bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614231145023,
+          "stop" : 1614231146188,
+          "duration" : 1165
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打卡考勤', 'creater': '11634'}" ]
+      } ],
+      "uid" : "d35c7a52598935f7cc96e2b148e846bd"
+    }, {
+      "name" : "14536-MainThread",
+      "children" : [ {
+        "name" : "test_clock_rules[circle5]",
+        "uid" : "359db127b38d0704",
+        "parentUid" : "aa66dae6697b7cb393ed85f83b06cbed",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614236707758,
+          "stop" : 1614236708926,
+          "duration" : 1168
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打卡规则是啥'}" ]
+      }, {
+        "name" : "test_clock_rules[circle2]",
+        "uid" : "859722d32384fe28",
+        "parentUid" : "aa66dae6697b7cb393ed85f83b06cbed",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614236704887,
+          "stop" : 1614236706086,
+          "duration" : 1199
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打卡制度查询'}" ]
+      }, {
+        "name" : "test_clock_rules[circle0]",
+        "uid" : "76469c45553926bd",
+        "parentUid" : "aa66dae6697b7cb393ed85f83b06cbed",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614236702227,
+          "stop" : 1614236703651,
+          "duration" : 1424
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '关于打卡有啥规定'}" ]
+      }, {
+        "name" : "test_clock_rules[circle3]",
+        "uid" : "2e8dc0bc59a47038",
+        "parentUid" : "aa66dae6697b7cb393ed85f83b06cbed",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614236706094,
+          "stop" : 1614236707290,
+          "duration" : 1196
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '考勤打卡制度查询'}" ]
+      }, {
+        "name" : "test_clock_rules[circle4]",
+        "uid" : "9b0b9409880eaced",
+        "parentUid" : "aa66dae6697b7cb393ed85f83b06cbed",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614236707298,
+          "stop" : 1614236707751,
+          "duration" : 453
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '签到有啥规定'}" ]
+      }, {
+        "name" : "test_clock_rules[circle1]",
+        "uid" : "f8df961aee1b3146",
+        "parentUid" : "aa66dae6697b7cb393ed85f83b06cbed",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614236703704,
+          "stop" : 1614236704879,
+          "duration" : 1175
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '查询打卡规定'}" ]
+      } ],
+      "uid" : "aa66dae6697b7cb393ed85f83b06cbed"
+    }, {
+      "name" : "23732-MainThread",
+      "children" : [ {
+        "name" : "test_attendance_sign_in[circle4]",
+        "uid" : "277d87bfca1e998a",
+        "parentUid" : "d3f60d886e68fb757609cb744d25d0da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614216969774,
+          "stop" : 1614216970961,
+          "duration" : 1187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': 11634, 'text': '小e帮我考勤打卡'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle0]",
+        "uid" : "4f79477099e206ba",
+        "parentUid" : "d3f60d886e68fb757609cb744d25d0da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614216965465,
+          "stop" : 1614216966185,
+          "duration" : 720
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': 11634, 'text': '签到'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle2]",
+        "uid" : "79c2f9106d06a8a5",
+        "parentUid" : "d3f60d886e68fb757609cb744d25d0da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614216967378,
+          "stop" : 1614216968571,
+          "duration" : 1193
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': 11634, 'text': '小e，我要签到'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle5]",
+        "uid" : "bba447303e74afa6",
+        "parentUid" : "d3f60d886e68fb757609cb744d25d0da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614216970964,
+          "stop" : 1614216972204,
+          "duration" : 1240
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': 11634, 'text': '想考勤'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle3]",
+        "uid" : "c8a169ec6e8c6605",
+        "parentUid" : "d3f60d886e68fb757609cb744d25d0da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614216968575,
+          "stop" : 1614216969769,
+          "duration" : 1194
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': 11634, 'text': '打卡考勤'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle1]",
+        "uid" : "a295ff09c75fb768",
+        "parentUid" : "d3f60d886e68fb757609cb744d25d0da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614216966200,
+          "stop" : 1614216967374,
+          "duration" : 1174
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'creater': 11634, 'text': '打卡'}" ]
+      } ],
+      "uid" : "d3f60d886e68fb757609cb744d25d0da"
+    } ],
+    "uid" : "5a0f92d1a9f98b807f2b707d59a75b38"
+  }, {
+    "name" : "DESKTOP-BAUEVGC",
+    "children" : [ {
+      "name" : "20684-MainThread",
+      "children" : [ {
+        "name" : "test_clock_rules[circle0]",
+        "uid" : "5cfb4ac5cac0d803",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1679538645581,
+          "stop" : 1679538646781,
+          "duration" : 1200
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '关于打卡有啥规定'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle1]",
+        "uid" : "479439f8fcbfb27",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1679538628873,
+          "stop" : 1679538630136,
+          "duration" : 1263
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打卡', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle0]",
+        "uid" : "2c17c457c3df470c",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1679538636419,
+          "stop" : 1679538636802,
+          "duration" : 383
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '签退', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_leave_create[circle2]",
+        "uid" : "4072b9e89358586c",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1679538660086,
+          "stop" : 1679538662303,
+          "duration" : 2217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '昨天早上8:30到晚上5:30请假，家中有事。'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle3]",
+        "uid" : "6a8df601ab6b4ae9",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1679538631537,
+          "stop" : 1679538633080,
+          "duration" : 1543
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打卡考勤', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_report_attendance[circle0]",
+        "uid" : "761a7650fef11362",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1679538681686,
+          "stop" : 1679538683509,
+          "duration" : 1823
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '帮我查看一下我的考勤报表。'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle4]",
+        "uid" : "ee71538e66e33e7f",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1679538633105,
+          "stop" : 1679538634751,
+          "duration" : 1646
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '小e帮我考勤打卡', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_leave_recall[circle1]",
+        "uid" : "af7ef70e3d9a7484",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1679538668764,
+          "stop" : 1679538669407,
+          "duration" : 643
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '我不想请假了'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle2]",
+        "uid" : "f93eb054ac47d197",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1679538637080,
+          "stop" : 1679538638423,
+          "duration" : 1343
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '下班了啦', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_leave_create[circle1]",
+        "uid" : "dcf646477434c963",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1679538657328,
+          "stop" : 1679538660081,
+          "duration" : 2753
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '今天下午2点到后天下午3点请假，身体不舒服年假。'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle6]",
+        "uid" : "86f498a528eeaa7e",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1679538640338,
+          "stop" : 1679538641626,
+          "duration" : 1288
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '我要下班了啦', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_report_attendance[circle3]",
+        "uid" : "d1144bfe12234fa7",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1679538688321,
+          "stop" : 1679538691439,
+          "duration" : 3118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '查询一下我的历史请假信息。'}" ]
+      }, {
+        "name" : "test_attendance_leave_query_system[circle1]",
+        "uid" : "a840c3727293f6d6",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1679538669941,
+          "stop" : 1679538670510,
+          "duration" : 569
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '年假是怎么计算的'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle5]",
+        "uid" : "79fe30464d144271",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1679538640081,
+          "stop" : 1679538640296,
+          "duration" : 215
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '我要下班', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle0]",
+        "uid" : "b09a661f7da4d468",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1679538625944,
+          "stop" : 1679538628414,
+          "duration" : 2470
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '签到', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_report_attendance[circle2]",
+        "uid" : "9cc0b76e518a64c",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1679538685702,
+          "stop" : 1679538688318,
+          "duration" : 2616
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '我的考勤数据。'}" ]
+      }, {
+        "name" : "test_attendance_outside_sign_in[circle0]",
+        "uid" : "5939dc37c5a3d2a1",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1679538641646,
+          "stop" : 1679538642737,
+          "duration" : 1091
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打外勤卡'}" ]
+      }, {
+        "name" : "test_report_vacation[circle0]",
+        "uid" : "7d8413ecedd44ff9",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1679538673406,
+          "stop" : 1679538675470,
+          "duration" : 2064
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '帮我查一下假期额度。'}" ]
+      }, {
+        "name" : "test_leave_create[circle4]",
+        "uid" : "a285053d481e94c8",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1679538663581,
+          "stop" : 1679538665622,
+          "duration" : 2041
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '，帮我请下周一到周五请5天年假。'}" ]
+      }, {
+        "name" : "test_attendance_leave_recall[circle0]",
+        "uid" : "25a20aecdb3d8e63",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1679538666861,
+          "stop" : 1679538668757,
+          "duration" : 1896
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '帮我撤回请假流程'}" ]
+      }, {
+        "name" : "test_attendance_outside_sign_in[circle1]",
+        "uid" : "bc807b2c92e3aa5b",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1679538642765,
+          "stop" : 1679538644294,
+          "duration" : 1529
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '帮我签个外勤卡'}" ]
+      }, {
+        "name" : "test_clock_rules[circle5]",
+        "uid" : "1117f553704a7ba0",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1679538652393,
+          "stop" : 1679538653608,
+          "duration" : 1215
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打卡规则是啥'}" ]
+      }, {
+        "name" : "test_attendance_leave_query_system[circle4]",
+        "uid" : "abaf7a998403e60c",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1679538672803,
+          "stop" : 1679538673401,
+          "duration" : 598
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '不休带薪病假会自动清零吗'}" ]
+      }, {
+        "name" : "test_report_attendance[circle4]",
+        "uid" : "5b4c0aab23cbf0cb",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1679538691447,
+          "stop" : 1679538693332,
+          "duration" : 1885
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '我这个月迟到了没有？'}" ]
+      }, {
+        "name" : "test_attendance_leave_query_system[circle0]",
+        "uid" : "3680e12ee647496f",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1679538669415,
+          "stop" : 1679538669937,
+          "duration" : 522
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '病假有什么规定'}" ]
+      }, {
+        "name" : "test_clock_rules[circle1]",
+        "uid" : "82a21df75051d04",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1679538646808,
+          "stop" : 1679538648033,
+          "duration" : 1225
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '查询打卡规定'}" ]
+      }, {
+        "name" : "test_attendance_outside_sign_back[circle0]",
+        "uid" : "543758dac90391a9",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1679538644324,
+          "stop" : 1679538645554,
+          "duration" : 1230
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '外勤签退'}" ]
+      }, {
+        "name" : "test_report_vacation[circle1]",
+        "uid" : "9104a8d77c42486b",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1679538675477,
+          "stop" : 1679538677041,
+          "duration" : 1564
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '小e查一下我还剩多少假期。'}" ]
+      }, {
+        "name" : "test_clock_rules[circle4]",
+        "uid" : "4e93d5aaecf5a01b",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1679538651081,
+          "stop" : 1679538652366,
+          "duration" : 1285
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '签到有啥规定'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle2]",
+        "uid" : "46b6d6c71eda445c",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1679538630165,
+          "stop" : 1679538631515,
+          "duration" : 1350
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '小e，我要签到', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_report_vacation[circle3]",
+        "uid" : "b04e9707d07424dc",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1679538678921,
+          "stop" : 1679538679705,
+          "duration" : 784
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '我的假期剩余天数。'}" ]
+      }, {
+        "name" : "test_clock_rules[circle2]",
+        "uid" : "80ac6be55e425f9e",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1679538648055,
+          "stop" : 1679538649445,
+          "duration" : 1390
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '打卡制度查询'}" ]
+      }, {
+        "name" : "test_report_vacation[circle2]",
+        "uid" : "ac3354cc5b0d9a0d",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1679538677046,
+          "stop" : 1679538678917,
+          "duration" : 1871
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '查询数据，帮我查一下我还有多少天年假。'}" ]
+      }, {
+        "name" : "test_leave_create[circle5]",
+        "uid" : "78b72268f1c67359",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1679538665626,
+          "stop" : 1679538666857,
+          "duration" : 1231
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '明天请假一天。'}" ]
+      }, {
+        "name" : "test_leave_create[circle0]",
+        "uid" : "b0278a37f07d1375",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1679538653628,
+          "stop" : 1679538657324,
+          "duration" : 3696
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '我不舒服不来上班了'}" ]
+      }, {
+        "name" : "test_report_vacation[circle4]",
+        "uid" : "2c8958c346a5a00f",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1679538679713,
+          "stop" : 1679538681331,
+          "duration" : 1618
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '查看带薪假期。'}" ]
+      }, {
+        "name" : "test_attendance_work_overtime_apply[circle0]",
+        "uid" : "e1316ef5e3826170",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1679538693341,
+          "stop" : 1679538693341,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{}" ]
+      }, {
+        "name" : "test_attendance_leave_query_system[circle2]",
+        "uid" : "744f252ad119bba3",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1679538670514,
+          "stop" : 1679538672379,
+          "duration" : 1865
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '公司的陪产假是几天'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle4]",
+        "uid" : "95dd33fcedf01c9c",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1679538638696,
+          "stop" : 1679538640047,
+          "duration" : 1351
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '要下班了啦', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_leave_query_system[circle3]",
+        "uid" : "19584d0c7441b9f2",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1679538672390,
+          "stop" : 1679538672794,
+          "duration" : 404
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '我的年假怎么突然没有了'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle3]",
+        "uid" : "1b146975c315988e",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1679538638448,
+          "stop" : 1679538638667,
+          "duration" : 219
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '要下班', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_back[circle1]",
+        "uid" : "ec49449b0e9e7ca5",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1679538636825,
+          "stop" : 1679538637049,
+          "duration" : 224
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '下班', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_attendance_sign_in[circle5]",
+        "uid" : "5399f4d0b1adc791",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1679538634785,
+          "stop" : 1679538636385,
+          "duration" : 1600
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '想考勤', 'creater': '11634'}" ]
+      }, {
+        "name" : "test_leave_create[circle3]",
+        "uid" : "5428a93590b6994c",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1679538662310,
+          "stop" : 1679538663577,
+          "duration" : 1267
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '帮我提交下周三天的年假。'}" ]
+      }, {
+        "name" : "test_report_attendance[circle1]",
+        "uid" : "76aa4e6f409e6620",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1679538683517,
+          "stop" : 1679538685695,
+          "duration" : 2178
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '我的考勤情况时什么样子的？'}" ]
+      }, {
+        "name" : "test_report_vacation[circle5]",
+        "uid" : "47b6dcbf32507b46",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1679538681336,
+          "stop" : 1679538681678,
+          "duration" : 342
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '我的年假有多少？'}" ]
+      }, {
+        "name" : "test_clock_rules[circle3]",
+        "uid" : "95251f396d66046e",
+        "parentUid" : "9968afa877d8ed4497d2ed1968fff1f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1679538649467,
+          "stop" : 1679538651059,
+          "duration" : 1592
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '考勤打卡制度查询'}" ]
+      } ],
+      "uid" : "9968afa877d8ed4497d2ed1968fff1f5"
+    } ],
+    "uid" : "16b8b12b28de3ba800ee9af0de5d71d6"
+  } ]
+}

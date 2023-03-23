@@ -1,0 +1,74 @@
+{
+  "uid" : "e1316ef5e3826170",
+  "name" : "test_attendance_work_overtime_apply[circle0]",
+  "fullName" : "TestCase.intention_test.TestKaoQin#test_attendance_work_overtime_apply",
+  "historyId" : "f054e22013a78d78921b13b7d748886f",
+  "time" : {
+    "start" : 1679538693341,
+    "stop" : 1679538693341,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'text'",
+  "statusTrace" : "self = <intention_test.TestKaoQin object at 0x00000287ACCB8E80>, circle = {}\n\n    @allure.story('考勤管理>加班>申请加班')\n    @pytest.mark.parametrize('circle', attendance_work_overtime_apply)\n    def test_attendance_work_overtime_apply(self, circle):\n        # 请求接口并获取返回的data\n>       request = request_get_ceshi(circle['text'])\nE       KeyError: 'text'\n\nTestCase\\intention_test.py:317: KeyError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "考勤管理"
+  }, {
+    "name" : "epic",
+    "value" : "项目名称：泛微小e意图识别"
+  }, {
+    "name" : "story",
+    "value" : "考勤管理>加班>申请加班"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "intention_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKaoQin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BAUEVGC"
+  }, {
+    "name" : "thread",
+    "value" : "20684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.intention_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "circle",
+    "value" : "{}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e1316ef5e3826170.json",
+  "parameterValues" : [ "{}" ]
+}

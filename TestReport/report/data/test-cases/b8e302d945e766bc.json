@@ -1,0 +1,146 @@
+{
+  "uid" : "b8e302d945e766bc",
+  "name" : "test_attendance_outside_sign_back[circle0]",
+  "fullName" : "TestCase.intention_test.TestIntention#test_attendance_outside_sign_back",
+  "historyId" : "0feaa0f93109d37b54e9beb3bf441549",
+  "time" : {
+    "start" : 1614234068489,
+    "stop" : 1614234069364,
+    "duration" : 875
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: URL不同，期望：redirect:https://www.e-cology.com.cn/spa/hrm/static4mobile/index.html#/outSign?moduleid=799174578 ，实际：redirect:https://www.e-cology.com.cn/spa/hrm/static4mobile/index.html#/outSign?moduleid=799174578\nassert 'redirect:htt...eid=799174578' == 'redirect:htt...id=799174578 '\n  Skipping 86 identical leading characters in diff, use -v to show\n  - d=799174578\n  + d=799174578 \n  ?            +",
+  "statusTrace" : "self = <intention_test.TestIntention object at 0x000001B55C4F6630>\ncircle = {'text': '外勤签退'}\n\n    @allure.story('考勤管理>打卡>外勤签退')\n    @pytest.mark.parametrize('circle', attendance_outside_sign_back)\n    def test_attendance_outside_sign_back(self, circle):\n        # 请求接口并获取返回的data\n        request = request_get_ceshi(circle['text'])\n        response = json.loads(request['data'])\n        # 接口返回的值\n        response_title = response['intentInfo']['title']\n        response_name = response['intentInfo']['name']\n        response_text = response['text']\n        response_userId = response['userId']\n        response_status = response['status']\n        response_action = response['invoker']['action']\n        # 期待的结果\n        except_title = '外勤签退'\n        except_name = 'attendance.outside_sign_back'\n        except_text = circle['text']\n        except_userId = '11634'\n        except_status = 'FINISH'\n        except_action = 'redirect:https://www.e-cology.com.cn/spa/hrm/static4mobile/index.html#/outSign?moduleid' \\\n                        '=799174578 '\n        # 添加至allure\n        allure.attach(str(request), '返回内容', allure.attachment_type.JSON)\n        # 断言\n        assert response_title == except_title, \"意图title不同，期望：%s，实际：%s\" % (except_title, response_title)\n        assert response_name == except_name, \"意图name不同，期望：%s，实际：%s\" % (except_name, response_name)\n        assert response_text == except_text, \"语音纠错前后不同，期望：%s，实际：%s\" % (except_text, response_text)\n        assert response_userId == except_userId, \"发送请求者的userId不同，期望：%s，实际：%s\" % (except_userId, response_userId)\n        assert response_status == except_status, \"意图动作不同，期望：%s，实际：%s\" % (except_status, response_status)\n>       assert response_action == except_action, \"URL不同，期望：%s，实际：%s\" % (except_action, response_action)\nE       AssertionError: URL不同，期望：redirect:https://www.e-cology.com.cn/spa/hrm/static4mobile/index.html#/outSign?moduleid=799174578 ，实际：redirect:https://www.e-cology.com.cn/spa/hrm/static4mobile/index.html#/outSign?moduleid=799174578\nE       assert 'redirect:htt...eid=799174578' == 'redirect:htt...id=799174578 '\nE         Skipping 86 identical leading characters in diff, use -v to show\nE         - d=799174578\nE         + d=799174578 \nE         ?            +\n\nTestCase\\intention_test.py:133: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1614234053425,
+      "stop" : 1614234053425,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1614234068488,
+      "stop" : 1614234068489,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1614234053425,
+      "stop" : 1614234053425,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1614234053425,
+      "stop" : 1614234053425,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: URL不同，期望：redirect:https://www.e-cology.com.cn/spa/hrm/static4mobile/index.html#/outSign?moduleid=799174578 ，实际：redirect:https://www.e-cology.com.cn/spa/hrm/static4mobile/index.html#/outSign?moduleid=799174578\nassert 'redirect:htt...eid=799174578' == 'redirect:htt...id=799174578 '\n  Skipping 86 identical leading characters in diff, use -v to show\n  - d=799174578\n  + d=799174578 \n  ?            +",
+    "statusTrace" : "self = <intention_test.TestIntention object at 0x000001B55C4F6630>\ncircle = {'text': '外勤签退'}\n\n    @allure.story('考勤管理>打卡>外勤签退')\n    @pytest.mark.parametrize('circle', attendance_outside_sign_back)\n    def test_attendance_outside_sign_back(self, circle):\n        # 请求接口并获取返回的data\n        request = request_get_ceshi(circle['text'])\n        response = json.loads(request['data'])\n        # 接口返回的值\n        response_title = response['intentInfo']['title']\n        response_name = response['intentInfo']['name']\n        response_text = response['text']\n        response_userId = response['userId']\n        response_status = response['status']\n        response_action = response['invoker']['action']\n        # 期待的结果\n        except_title = '外勤签退'\n        except_name = 'attendance.outside_sign_back'\n        except_text = circle['text']\n        except_userId = '11634'\n        except_status = 'FINISH'\n        except_action = 'redirect:https://www.e-cology.com.cn/spa/hrm/static4mobile/index.html#/outSign?moduleid' \\\n                        '=799174578 '\n        # 添加至allure\n        allure.attach(str(request), '返回内容', allure.attachment_type.JSON)\n        # 断言\n        assert response_title == except_title, \"意图title不同，期望：%s，实际：%s\" % (except_title, response_title)\n        assert response_name == except_name, \"意图name不同，期望：%s，实际：%s\" % (except_name, response_name)\n        assert response_text == except_text, \"语音纠错前后不同，期望：%s，实际：%s\" % (except_text, response_text)\n        assert response_userId == except_userId, \"发送请求者的userId不同，期望：%s，实际：%s\" % (except_userId, response_userId)\n        assert response_status == except_status, \"意图动作不同，期望：%s，实际：%s\" % (except_status, response_status)\n>       assert response_action == except_action, \"URL不同，期望：%s，实际：%s\" % (except_action, response_action)\nE       AssertionError: URL不同，期望：redirect:https://www.e-cology.com.cn/spa/hrm/static4mobile/index.html#/outSign?moduleid=799174578 ，实际：redirect:https://www.e-cology.com.cn/spa/hrm/static4mobile/index.html#/outSign?moduleid=799174578\nE       assert 'redirect:htt...eid=799174578' == 'redirect:htt...id=799174578 '\nE         Skipping 86 identical leading characters in diff, use -v to show\nE         - d=799174578\nE         + d=799174578 \nE         ?            +\n\nTestCase\\intention_test.py:133: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "af8a07569c0051ac",
+      "name" : "返回内容",
+      "source" : "af8a07569c0051ac.json",
+      "type" : "application/json",
+      "size" : 739
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "考勤管理"
+  }, {
+    "name" : "story",
+    "value" : "考勤管理>打卡>外勤签退"
+  }, {
+    "name" : "epic",
+    "value" : "泛微小e意图识别"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "intention_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestIntention"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NTA3Ax4"
+  }, {
+    "name" : "thread",
+    "value" : "21452-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.intention_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "circle",
+    "value" : "{'text': '外勤签退'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b8e302d945e766bc.json",
+  "parameterValues" : [ "{'text': '外勤签退'}" ]
+}

@@ -1,0 +1,92 @@
+{
+  "uid" : "7d8413ecedd44ff9",
+  "name" : "test_report_vacation[circle0]",
+  "fullName" : "TestCase.intention_test.TestKaoQin#test_report_vacation",
+  "historyId" : "a401949c62937733d5413a7537771854",
+  "time" : {
+    "start" : 1679538673406,
+    "stop" : 1679538675470,
+    "duration" : 2064
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "86f4f7df138f410c",
+      "name" : "返回内容",
+      "source" : "86f4f7df138f410c.json",
+      "type" : "application/json",
+      "size" : 811
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "考勤管理"
+  }, {
+    "name" : "epic",
+    "value" : "项目名称：泛微小e意图识别"
+  }, {
+    "name" : "story",
+    "value" : "考勤管理>假期额度"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "intention_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKaoQin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BAUEVGC"
+  }, {
+    "name" : "thread",
+    "value" : "20684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.intention_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "circle",
+    "value" : "{'text': '帮我查一下假期额度。'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "29bf1bbc5be5e048",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614330329454,
+        "stop" : 1614330330695,
+        "duration" : 1241
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7d8413ecedd44ff9.json",
+  "parameterValues" : [ "{'text': '帮我查一下假期额度。'}" ]
+}

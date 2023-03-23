@@ -1,0 +1,146 @@
+{
+  "uid" : "f7d417d03035b5c9",
+  "name" : "test_attendance_outside_sign_in[circle1]",
+  "fullName" : "TestCase.intention_test.TestIntention#test_attendance_outside_sign_in",
+  "historyId" : "6a4a6c04e366cfbbffe55f69a12fdf83",
+  "time" : {
+    "start" : 1614232578610,
+    "stop" : 1614232579858,
+    "duration" : 1248
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 意图name不同，期望：attendance_outside_sign_in，实际：attendance.outside_sign_in\nassert 'attendance.outside_sign_in' == 'attendance_outside_sign_in'\n  - attendance.outside_sign_in\n  ?           ^\n  + attendance_outside_sign_in\n  ?           ^",
+  "statusTrace" : "self = <intention_test.TestIntention object at 0x0000026D1778E748>\ncircle = {'text': '帮我签个外勤卡'}\n\n    @allure.story('考勤管理>打卡>外勤签到')\n    @pytest.mark.parametrize('circle', attendance_outside_sign_in)\n    def test_attendance_outside_sign_in(self, circle):\n        # 请求接口并获取返回的data\n        request = request_get_ceshi(circle['text'])\n        response = json.loads(request['data'])\n        # 接口返回的值\n        response_title = response['intentInfo']['title']\n        response_name = response['intentInfo']['name']\n        response_text = response['text']\n        response_userId = response['userId']\n        response_status = response['status']\n        response_action = response['invoker']['action']\n        # 期待的结果\n        except_title = '外勤签到'\n        except_name = 'attendance_outside_sign_in'\n        except_text = circle['text']\n        except_userId = '11634'\n        except_status = 'FINISH'\n        except_action = 'redirect:https://www.e-cology.com.cn/spa/hrm/static4mobile/index.html#/outSign?moduleid' \\\n                        '=799174578 '\n        # 添加至allure\n        allure.attach(str(request), '返回内容', allure.attachment_type.JSON)\n        # 断言\n        assert response_title == except_title, \"意图title不同，期望：%s，实际：%s\" % (except_title, response_title)\n>       assert response_name == except_name, \"意图name不同，期望：%s，实际：%s\" % (except_name, response_name)\nE       AssertionError: 意图name不同，期望：attendance_outside_sign_in，实际：attendance.outside_sign_in\nE       assert 'attendance.outside_sign_in' == 'attendance_outside_sign_in'\nE         - attendance.outside_sign_in\nE         ?           ^\nE         + attendance_outside_sign_in\nE         ?           ^\n\nTestCase\\intention_test.py:98: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1614232578610,
+      "stop" : 1614232578610,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1614232566612,
+      "stop" : 1614232566612,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1614232566612,
+      "stop" : 1614232566612,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1614232566612,
+      "stop" : 1614232566612,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: 意图name不同，期望：attendance_outside_sign_in，实际：attendance.outside_sign_in\nassert 'attendance.outside_sign_in' == 'attendance_outside_sign_in'\n  - attendance.outside_sign_in\n  ?           ^\n  + attendance_outside_sign_in\n  ?           ^",
+    "statusTrace" : "self = <intention_test.TestIntention object at 0x0000026D1778E748>\ncircle = {'text': '帮我签个外勤卡'}\n\n    @allure.story('考勤管理>打卡>外勤签到')\n    @pytest.mark.parametrize('circle', attendance_outside_sign_in)\n    def test_attendance_outside_sign_in(self, circle):\n        # 请求接口并获取返回的data\n        request = request_get_ceshi(circle['text'])\n        response = json.loads(request['data'])\n        # 接口返回的值\n        response_title = response['intentInfo']['title']\n        response_name = response['intentInfo']['name']\n        response_text = response['text']\n        response_userId = response['userId']\n        response_status = response['status']\n        response_action = response['invoker']['action']\n        # 期待的结果\n        except_title = '外勤签到'\n        except_name = 'attendance_outside_sign_in'\n        except_text = circle['text']\n        except_userId = '11634'\n        except_status = 'FINISH'\n        except_action = 'redirect:https://www.e-cology.com.cn/spa/hrm/static4mobile/index.html#/outSign?moduleid' \\\n                        '=799174578 '\n        # 添加至allure\n        allure.attach(str(request), '返回内容', allure.attachment_type.JSON)\n        # 断言\n        assert response_title == except_title, \"意图title不同，期望：%s，实际：%s\" % (except_title, response_title)\n>       assert response_name == except_name, \"意图name不同，期望：%s，实际：%s\" % (except_name, response_name)\nE       AssertionError: 意图name不同，期望：attendance_outside_sign_in，实际：attendance.outside_sign_in\nE       assert 'attendance.outside_sign_in' == 'attendance_outside_sign_in'\nE         - attendance.outside_sign_in\nE         ?           ^\nE         + attendance_outside_sign_in\nE         ?           ^\n\nTestCase\\intention_test.py:98: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "16d9377bea0ad558",
+      "name" : "返回内容",
+      "source" : "16d9377bea0ad558.json",
+      "type" : "application/json",
+      "size" : 755
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "考勤管理>打卡>外勤签到"
+  }, {
+    "name" : "feature",
+    "value" : "考勤管理"
+  }, {
+    "name" : "epic",
+    "value" : "泛微小e意图识别"
+  }, {
+    "name" : "suite",
+    "value" : "intention_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestIntention"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NTA3Ax4"
+  }, {
+    "name" : "thread",
+    "value" : "17360-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.intention_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "circle",
+    "value" : "{'text': '帮我签个外勤卡'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f7d417d03035b5c9.json",
+  "parameterValues" : [ "{'text': '帮我签个外勤卡'}" ]
+}

@@ -1,0 +1,98 @@
+{
+  "uid" : "95dd33fcedf01c9c",
+  "name" : "test_attendance_sign_back[circle4]",
+  "fullName" : "TestCase.intention_test.TestKaoQin#test_attendance_sign_back",
+  "historyId" : "fb9b5206dfbfb22ac06c95c710a3e6a3",
+  "time" : {
+    "start" : 1679538638696,
+    "stop" : 1679538640047,
+    "duration" : 1351
+  },
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'invoker'",
+  "statusTrace" : "self = <intention_test.TestKaoQin object at 0x00000287ACCA2490>\ncircle = {'creater': '11634', 'text': '要下班了啦'}\n\n    @allure.story('考勤管理>打卡>签退')\n    @pytest.mark.parametrize('circle', attendance_sign_back)\n    def test_attendance_sign_back(self, circle):\n        # 请求接口并获取返回的data\n        request = request_get_ceshi(circle['text'])\n        response = json.loads(request['data'])\n        # 接口返回的值\n        response_title = response['intentInfo']['title']\n        response_name = response['intentInfo']['name']\n        response_text = response['text']\n        response_userId = response['userId']\n        response_status = response['status']\n>       response_action = response['invoker']['action']\nE       KeyError: 'invoker'\n\nTestCase\\intention_test.py:55: KeyError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "考勤管理"
+  }, {
+    "name" : "epic",
+    "value" : "项目名称：泛微小e意图识别"
+  }, {
+    "name" : "story",
+    "value" : "考勤管理>打卡>签退"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "intention_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKaoQin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BAUEVGC"
+  }, {
+    "name" : "thread",
+    "value" : "20684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.intention_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "circle",
+    "value" : "{'text': '要下班了啦', 'creater': '11634'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fe82a6a24b18e4e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614330301483,
+        "stop" : 1614330302716,
+        "duration" : 1233
+      }
+    }, {
+      "uid" : "b5b073155041e5ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614241508229,
+        "stop" : 1614241509462,
+        "duration" : 1233
+      }
+    }, {
+      "uid" : "d2bd29bc760793e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614238738110,
+        "stop" : 1614238739343,
+        "duration" : 1233
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "95dd33fcedf01c9c.json",
+  "parameterValues" : [ "{'text': '要下班了啦', 'creater': '11634'}" ]
+}

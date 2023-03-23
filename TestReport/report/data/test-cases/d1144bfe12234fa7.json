@@ -1,0 +1,92 @@
+{
+  "uid" : "d1144bfe12234fa7",
+  "name" : "test_report_attendance[circle3]",
+  "fullName" : "TestCase.intention_test.TestKaoQin#test_report_attendance",
+  "historyId" : "bc6b6063495a1d4c321cae63ef9da759",
+  "time" : {
+    "start" : 1679538688321,
+    "stop" : 1679538691439,
+    "duration" : 3118
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3d990b12e66b220",
+      "name" : "返回内容",
+      "source" : "3d990b12e66b220.json",
+      "type" : "application/json",
+      "size" : 1266
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "考勤管理>考勤报表"
+  }, {
+    "name" : "feature",
+    "value" : "考勤管理"
+  }, {
+    "name" : "epic",
+    "value" : "项目名称：泛微小e意图识别"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "intention_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKaoQin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BAUEVGC"
+  }, {
+    "name" : "thread",
+    "value" : "20684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.intention_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "circle",
+    "value" : "{'text': '查询一下我的历史请假信息。'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ec11cb7404e48a31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614330340797,
+        "stop" : 1614330342061,
+        "duration" : 1264
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d1144bfe12234fa7.json",
+  "parameterValues" : [ "{'text': '查询一下我的历史请假信息。'}" ]
+}

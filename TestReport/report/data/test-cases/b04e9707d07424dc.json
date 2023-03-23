@@ -1,0 +1,92 @@
+{
+  "uid" : "b04e9707d07424dc",
+  "name" : "test_report_vacation[circle3]",
+  "fullName" : "TestCase.intention_test.TestKaoQin#test_report_vacation",
+  "historyId" : "6f8b8cd636081f60869bc7d6cd4c40fa",
+  "time" : {
+    "start" : 1679538678921,
+    "stop" : 1679538679705,
+    "duration" : 784
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "420326b0d0d9f100",
+      "name" : "返回内容",
+      "source" : "420326b0d0d9f100.json",
+      "type" : "application/json",
+      "size" : 801
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "考勤管理"
+  }, {
+    "name" : "epic",
+    "value" : "项目名称：泛微小e意图识别"
+  }, {
+    "name" : "story",
+    "value" : "考勤管理>假期额度"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "intention_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKaoQin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BAUEVGC"
+  }, {
+    "name" : "thread",
+    "value" : "20684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.intention_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "circle",
+    "value" : "{'text': '我的假期剩余天数。'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b9709a0d0f1738b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614330333238,
+        "stop" : 1614330334494,
+        "duration" : 1256
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b04e9707d07424dc.json",
+  "parameterValues" : [ "{'text': '我的假期剩余天数。'}" ]
+}
